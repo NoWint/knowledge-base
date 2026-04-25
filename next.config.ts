@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   compress: true,
   trailingSlash: true,
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  basePath: '/knowledge-base',
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   experimental: {

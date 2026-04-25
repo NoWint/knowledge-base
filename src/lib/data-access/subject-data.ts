@@ -5,23 +5,35 @@ let subjectsCache: Subject[] | null = null
 const chaptersCache: Map<string, Chapter[]> = new Map()
 const kpCache: Map<string, KnowledgePoint[]> = new Map()
 
+const DATA_BASE_URL = ''
+
+async function fetchJSON<T>(url: string): Promise<T | null> {
+  try {
+    const res = await fetch(url)
+    if (!res.ok) return null
+    return await res.json()
+  } catch {
+    return null
+  }
+}
+
 export async function getAllSubjects(): Promise<Subject[]> {
   if (subjectsCache) {
     return subjectsCache
   }
 
-  try {
-    const metadataModule = await import('@/data/subjects/metadata').catch(() => null)
-    if (metadataModule?.default?.subjects) {
-      subjectsCache = metadataModule.default.subjects.sort((a: Subject, b: Subject) => a.orderIndex - b.orderIndex)
-      return subjectsCache
-    }
-  } catch (e) {
-    console.warn('Failed to load subjects from JSON, falling back to database')
+  const data = await fetchJSON<{ subjects: Subject[] }>(`${DATA_BASE_URL}/data/subjects/metadata.json`)
+  if (data?.subjects) {
+    subjectsCache = data.subjects.sort((a, b) => a.orderIndex - b.orderIndex)
+    return subjectsCache
   }
 
-  const subjects = await db.subjects.toArray()
-  return subjects.sort((a, b) => a.orderIndex - b.orderIndex)
+  try {
+    const subjects = await db.subjects.toArray()
+    return subjects.sort((a, b) => a.orderIndex - b.orderIndex)
+  } catch {
+    return []
+  }
 }
 
 export async function getAllChapters(): Promise<Chapter[]> {
@@ -51,10 +63,28 @@ export async function getAllKnowledgePoints(): Promise<KnowledgePoint[]> {
 export async function getAllKnowledgeRelations(): Promise<KnowledgeRelation[]> {
   try {
     return await db.knowledgeRelations.toArray()
-  } catch (e) {
-    console.warn('Failed to load relations from database, returning empty array')
+  } catch {
     return []
   }
+}
+
+function processChapterData(chapters: any[], subjectId: string, parentId: string | null = null): Chapter[] {
+  const result: Chapter[] = []
+  chapters.forEach((ch, idx) => {
+    const id = ch.id || `${subjectId}-${ch.order || idx}`
+    result.push({
+      id,
+      subjectId,
+      parentId,
+      name: ch.name || '',
+      orderIndex: ch.order || idx,
+      description: ch.description || '',
+    })
+    if (ch.subChapters) {
+      result.push(...processChapterData(ch.subChapters, subjectId, id))
+    }
+  })
+  return result
 }
 
 export async function getSubjectChapters(subjectId: string): Promise<Chapter[]> {
@@ -62,37 +92,19 @@ export async function getSubjectChapters(subjectId: string): Promise<Chapter[]> 
     return chaptersCache.get(subjectId)!
   }
 
-  try {
-    const curriculum = await import(`@/data/subjects/${subjectId}/chapters/curriculum`).catch(() => null)
-    if (!curriculum?.default?.chapters) {
-      const dbChapters = await db.chapters.where('subjectId').equals(subjectId).toArray()
-      chaptersCache.set(subjectId, dbChapters)
-      return dbChapters
-    }
-
-    const chapters: Chapter[] = []
-    function processChapter(ch: any, parentId: string | null = null) {
-      const id = ch.id || `${subjectId}-${ch.order || chapters.length}`
-      chapters.push({
-        id,
-        subjectId,
-        parentId,
-        name: ch.name || '',
-        orderIndex: ch.order || 0,
-        description: ch.description || '',
-      })
-      if (ch.subChapters) {
-        ch.subChapters.forEach((sub: any) => processChapter(sub, id))
-      }
-    }
-    curriculum.default.chapters.forEach((ch: any) => processChapter(ch))
-    
+  const data = await fetchJSON<{ chapters: any[] }>(`/data/subjects/${subjectId}/chapters/curriculum.json`)
+  if (data?.chapters) {
+    const chapters = processChapterData(data.chapters, subjectId)
     chaptersCache.set(subjectId, chapters)
     return chapters
-  } catch (e) {
+  }
+
+  try {
     const dbChapters = await db.chapters.where('subjectId').equals(subjectId).toArray()
     chaptersCache.set(subjectId, dbChapters)
     return dbChapters
+  } catch {
+    return []
   }
 }
 
@@ -101,17 +113,9 @@ export async function getSubjectKnowledgePoints(subjectId: string): Promise<Know
     return kpCache.get(subjectId)!
   }
 
-  try {
-    const kpModule = await import(`@/data/subjects/${subjectId}/knowledge/core-points`).catch(() => null)
-    if (!kpModule?.default?.knowledgePoints) {
-      const chapters = await getSubjectChapters(subjectId)
-      const chapterIds = chapters.map(c => c.id)
-      const dbKps = await db.knowledgePoints.where('chapterId').anyOf(chapterIds).toArray()
-      kpCache.set(subjectId, dbKps)
-      return dbKps
-    }
-
-    const kps: KnowledgePoint[] = kpModule.default.knowledgePoints.map((kp: any, idx: number) => ({
+  const data = await fetchJSON<{ knowledgePoints: any[] }>(`/data/subjects/${subjectId}/knowledge/core-points.json`)
+  if (data?.knowledgePoints) {
+    const kps: KnowledgePoint[] = data.knowledgePoints.map((kp, idx) => ({
       id: kp.id || `${subjectId}-kp-${idx}`,
       chapterId: kp.chapterId || '',
       name: kp.name || '',
@@ -120,15 +124,19 @@ export async function getSubjectKnowledgePoints(subjectId: string): Promise<Know
       content: kp.content || '',
       masteryLevel: kp.masteryLevel || 0,
     }))
-
     kpCache.set(subjectId, kps)
     return kps
-  } catch (e) {
+  }
+
+  try {
     const chapters = await getSubjectChapters(subjectId)
     const chapterIds = chapters.map(c => c.id)
+    if (chapterIds.length === 0) return []
     const dbKps = await db.knowledgePoints.where('chapterId').anyOf(chapterIds).toArray()
     kpCache.set(subjectId, dbKps)
     return dbKps
+  } catch {
+    return []
   }
 }
 
@@ -140,8 +148,8 @@ export async function searchKnowledgePoints(query: string, subjectId?: string): 
     const kps = await getSubjectKnowledgePoints(sid)
     const filtered = kps.filter(kp =>
       kp.name.includes(query) ||
-      kp.description.includes(query) ||
-      kp.content.includes(query)
+      (kp.description && kp.description.includes(query)) ||
+      (kp.content && kp.content.includes(query))
     )
     results.push(...filtered)
   }
