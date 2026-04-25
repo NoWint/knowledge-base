@@ -37,10 +37,10 @@ export async function loadAllQuestions(): Promise<LoadedQuestion[]> {
       
       for (const filePath of examFiles) {
         try {
-          const module = await import(filePath).catch(() => null)
-          if (!module?.default) continue
+          const examModule = await import(filePath).catch(() => null)
+          if (!examModule?.default) continue
 
-          const data: ExamFile = module.default
+          const data: ExamFile = examModule.default
           const categories = data.examCategories || []
           
           for (const cat of categories) {
