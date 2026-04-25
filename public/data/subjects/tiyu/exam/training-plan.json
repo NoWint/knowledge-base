@@ -1,0 +1,160 @@
+{
+  "title": "体育中考训练计划",
+  "introduction": "针对体育中考项目的科学训练计划，包括体能训练、技术训练和心理调节",
+  "trainingPrinciples": [
+    "循序渐进：逐步增加运动负荷",
+    "因人而异：根据个人情况调整训练强度",
+    "持之以恒：坚持每天训练",
+    "科学恢复：注意休息和营养补充"
+  ],
+  "weeklyTrainingPlan": {
+    "周一": {
+      "focus": "速度与爆发力",
+      "activities": [
+        { "name": "慢跑热身", "duration": "10分钟", "intensity": "低" },
+        { "name": "加速跑", "duration": "4×50米", "intensity": "中高" },
+        { "name": "冲刺跑", "duration": "4×30米", "intensity": "高" },
+        { "name": "立定跳远练习", "duration": "10次×3组", "intensity": "中高" },
+        { "name": "实心球练习", "duration": "10次×3组", "intensity": "中高" },
+        { "name": "放松拉伸", "duration": "10分钟", "intensity": "低" }
+      ]
+    },
+    "周二": {
+      "focus": "耐力训练",
+      "activities": [
+        { "name": "慢跑热身", "duration": "10分钟", "intensity": "低" },
+        { "name": "800米/1000米跑", "duration": "2-3次", "intensity": "中" },
+        { "name": "间歇跑", "duration": "400米×3", "intensity": "中高" },
+        { "name": "核心力量训练", "duration": "15分钟", "intensity": "中" },
+        { "name": "放松拉伸", "duration": "10分钟", "intensity": "低" }
+      ]
+    },
+    "周三": {
+      "focus": "技术训练与协调性",
+      "activities": [
+        { "name": "慢跑热身", "duration": "10分钟", "intensity": "低" },
+        { "name": "柔韧性训练", "duration": "15分钟", "intensity": "中" },
+        { "name": "立定跳远技术练习", "duration": "15分钟", "intensity": "中" },
+        { "name": "实心球技术练习", "duration": "15分钟", "intensity": "中" },
+        { "name": "协调性训练", "duration": "10分钟", "intensity": "中" },
+        { "name": "放松拉伸", "duration": "10分钟", "intensity": "低" }
+      ]
+    },
+    "周四": {
+      "focus": "休息与恢复",
+      "activities": [
+        { "name": "轻度活动", "duration": "20分钟", "intensity": "低" },
+        { "name": "按摩放松", "duration": "15分钟", "intensity": "低" },
+        { "name": "柔韧性训练", "duration": "15分钟", "intensity": "低" }
+      ]
+    },
+    "周五": {
+      "focus": "综合训练",
+      "activities": [
+        { "name": "慢跑热身", "duration": "10分钟", "intensity": "低" },
+        { "name": "变速跑", "duration": "6×200米", "intensity": "中高" },
+        { "name": "立定跳远练习", "duration": "10次×3组", "intensity": "中高" },
+        { "name": "实心球练习", "duration": "10次×3组", "intensity": "中高" },
+        { "name": "引体向上/仰卧起坐", "duration": "适当组数", "intensity": "中" },
+        { "name": "放松拉伸", "duration": "10分钟", "intensity": "低" }
+      ]
+    },
+    "周六": {
+      "focus": "模拟测试",
+      "activities": [
+        { "name": "慢跑热身", "duration": "10分钟", "intensity": "低" },
+        { "name": "柔韧性训练", "duration": "10分钟", "intensity": "低" },
+        { "name": "模拟测试", "duration": "根据项目", "intensity": "高" },
+        { "name": "放松拉伸", "duration": "15分钟", "intensity": "低" }
+      ]
+    },
+    "周日": {
+      "focus": "完全休息",
+      "activities": [
+        { "name": "轻度活动（如散步）", "duration": "30分钟", "intensity": "低" }
+      ]
+    }
+  },
+  "specialTraining": [
+    {
+      "item": "1000米/800米",
+      "keyPoints": [
+        "耐力是基础，需要长期坚持训练",
+        "采用变速跑提高训练效率",
+        "注意呼吸节奏的培养",
+        "最后200米是冲刺的关键"
+      ],
+      "specificExercises": [
+        { "name": "长距离慢跑", "duration": "20-30分钟", "purpose": "提高心肺功能" },
+        { "name": "间歇跑", "duration": "400米×5", "purpose": "提高速度和耐力" },
+        { "name": "冲刺跑", "duration": "100米×5", "purpose": "提高速度" }
+      ]
+    },
+    {
+      "item": "立定跳远",
+      "keyPoints": [
+        "下肢爆发力是关键",
+        "技术动作要规范",
+        "空中动作要协调",
+        "落地缓冲很重要"
+      ],
+      "specificExercises": [
+        { "name": "深蹲跳", "duration": "15次×3组", "purpose": "提高爆发力" },
+        { "name": "蛙跳", "duration": "20米×4组", "purpose": "提高腿部力量" },
+        { "name": "收腹跳", "duration": "15次×3组", "purpose": "提高腾空高度" },
+        { "name": "柔韧性训练", "duration": "15分钟", "purpose": "增加动作幅度" }
+      ]
+    },
+    {
+      "item": "实心球",
+      "keyPoints": [
+        "发力顺序很重要：蹬腿→转体→挥臂→抖腕",
+        "出手角度约45度",
+        "最后用力要爆发",
+        "身体要充分伸展"
+      ],
+      "specificExercises": [
+        { "name": "俯卧撑", "duration": "15次×3组", "purpose": "提高上肢力量" },
+        { "name": "哑铃挥臂", "duration": "20次×3组", "purpose": "提高挥臂速度" },
+        { "name": "转体练习", "duration": "20次×3组", "purpose": "提高转体力量" },
+        { "name": "核心力量训练", "duration": "15分钟", "purpose": "提高躯干稳定性" }
+      ]
+    }
+  ],
+  "preExamPreparation": {
+    "考前一周": [
+      "减少训练量，保持状态",
+      "保证充足睡眠",
+      "注意营养补充",
+      "检查装备（运动鞋、服装）",
+      "熟悉考试场地"
+    ],
+    "考前一天": [
+      "轻度活动，保持热身感觉",
+      "早睡早起",
+      "准备好考试所需物品",
+      "心理暗示：我准备好了"
+    ],
+    "考试当天": [
+      "提前到场，做好热身",
+      "穿着合适的运动服装",
+      "考试前30分钟喝少量水",
+      "听从老师指挥",
+      "每项考试前充分热身"
+    ]
+  },
+  "nutritionAdvice": {
+    "训练期间": [
+      "保证充足的蛋白质摄入（约60-90克/天）",
+      "运动前补充碳水化合物（如面包、香蕉）",
+      "运动中少量多次补充水分",
+      "运动后补充含电解质的饮料"
+    ],
+    "考前饮食": [
+      "考前2-3小时进食易消化食物",
+      "避免高脂肪、高纤维食物",
+      "保证充足水分",
+      "不要尝试新食物"
+    ]
+  }
+}

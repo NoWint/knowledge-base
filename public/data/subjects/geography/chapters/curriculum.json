@@ -1,0 +1,211 @@
+{
+  "subject": "地理",
+  "version": "湘教版",
+  "gradeLevels": ["七年级上", "七年级下", "八年级上", "八年级下"],
+  "chapters": [
+    {
+      "grade": "七年级上",
+      "order": 1,
+      "id": "geo-7s-1",
+      "name": "地球和地图",
+      "subChapters": [
+        { "id": "geo-7s-1-1", "name": "地球的形状和大小", "order": 1 },
+        { "id": "geo-7s-1-2", "name": "地球仪", "order": 2 },
+        { "id": "geo-7s-1-3", "name": "经纬网", "order": 3 },
+        { "id": "geo-7s-1-4", "name": "地球的自转", "order": 4 },
+        { "id": "geo-7s-1-5", "name": "地球的公转", "order": 5 },
+        { "id": "geo-7s-1-6", "name": "地图的基本要素", "order": 6 },
+        { "id": "geo-7s-1-7", "name": "地形图的判读", "order": 7 },
+        { "id": "geo-7s-1-8", "name": "等高线地形图", "order": 8 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 2,
+      "id": "geo-7s-2",
+      "name": "海洋与陆地",
+      "subChapters": [
+        { "id": "geo-7s-2-1", "name": "海陆分布", "order": 1 },
+        { "id": "geo-7s-2-2", "name": "七大洲", "order": 2 },
+        { "id": "geo-7s-2-3", "name": "四大洋", "order": 3 },
+        { "id": "geo-7s-2-4", "name": "陆地地形", "order": 4 },
+        { "id": "geo-7s-2-5", "name": "海底地形", "order": 5 },
+        { "id": "geo-7s-2-6", "name": "海陆变迁", "order": 6 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 3,
+      "id": "geo-7s-3",
+      "name": "天气与气候",
+      "subChapters": [
+        { "id": "geo-7s-3-1", "name": "多变的天气", "order": 1 },
+        { "id": "geo-7s-3-2", "name": "气温的变化与分布", "order": 2 },
+        { "id": "geo-7s-3-3", "name": "降水的变化与分布", "order": 3 },
+        { "id": "geo-7s-3-4", "name": "世界的气候类型", "order": 4 },
+        { "id": "geo-7s-3-5", "name": "影响气候的主要因素", "order": 5 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 4,
+      "id": "geo-7s-4",
+      "name": "居民与聚落",
+      "subChapters": [
+        { "id": "geo-7s-4-1", "name": "世界人口", "order": 1 },
+        { "id": "geo-7s-4-2", "name": "世界的人种", "order": 2 },
+        { "id": "geo-7s-4-3", "name": "世界的语言与宗教", "order": 3 },
+        { "id": "geo-7s-4-4", "name": "聚落", "order": 4 },
+        { "id": "geo-7s-4-5", "name": "保护世界文化遗产", "order": 5 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 5,
+      "id": "geo-7s-5",
+      "name": "发展与合作",
+      "subChapters": [
+        { "id": "geo-7s-5-1", "name": "发达国家和发展中国家", "order": 1 },
+        { "id": "geo-7s-5-2", "name": "国际经济合作", "order": 2 },
+        { "id": "geo-7s-5-3", "name": "重要的国际组织", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 6,
+      "id": "geo-7x-1",
+      "name": "认识大洲",
+      "subChapters": [
+        { "id": "geo-7x-1-1", "name": "亚洲的自然环境", "order": 1 },
+        { "id": "geo-7x-1-2", "name": "亚洲的人文环境", "order": 2 },
+        { "id": "geo-7x-1-3", "name": "欧洲", "order": 3 },
+        { "id": "geo-7x-1-4", "name": "非洲", "order": 4 },
+        { "id": "geo-7x-1-5", "name": "北美洲", "order": 5 },
+        { "id": "geo-7x-1-6", "name": "南美洲", "order": 6 },
+        { "id": "geo-7x-1-7", "name": "大洋洲", "order": 7 },
+        { "id": "geo-7x-1-8", "name": "南极洲", "order": 8 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 7,
+      "id": "geo-7x-2",
+      "name": "认识区域",
+      "subChapters": [
+        { "id": "geo-7x-2-1", "name": "东南亚", "order": 1 },
+        { "id": "geo-7x-2-2", "name": "中东", "order": 2 },
+        { "id": "geo-7x-2-3", "name": "欧洲西部", "order": 3 },
+        { "id": "geo-7x-2-4", "name": "撒哈拉以南非洲", "order": 4 },
+        { "id": "geo-7x-2-5", "name": "极地地区", "order": 5 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 8,
+      "id": "geo-7x-3",
+      "name": "认识国家",
+      "subChapters": [
+        { "id": "geo-7x-3-1", "name": "日本", "order": 1 },
+        { "id": "geo-7x-3-2", "name": "俄罗斯", "order": 2 },
+        { "id": "geo-7x-3-3", "name": "印度", "order": 3 },
+        { "id": "geo-7x-3-4", "name": "澳大利亚", "order": 4 },
+        { "id": "geo-7x-3-5", "name": "美国", "order": 5 },
+        { "id": "geo-7x-3-6", "name": "巴西", "order": 6 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 9,
+      "id": "geo-8s-1",
+      "name": "中国的疆域与人口",
+      "subChapters": [
+        { "id": "geo-8s-1-1", "name": "优越的地理位置", "order": 1 },
+        { "id": "geo-8s-1-2", "name": "海陆兼备的大国", "order": 2 },
+        { "id": "geo-8s-1-3", "name": "行政区划", "order": 3 },
+        { "id": "geo-8s-1-4", "name": "人口", "order": 4 },
+        { "id": "geo-8s-1-5", "name": "民族", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 10,
+      "id": "geo-8s-2",
+      "name": "中国的自然环境",
+      "subChapters": [
+        { "id": "geo-8s-2-1", "name": "地形特点", "order": 1 },
+        { "id": "geo-8s-2-2", "name": "主要山脉", "order": 2 },
+        { "id": "geo-8s-2-3", "name": "四大高原", "order": 3 },
+        { "id": "geo-8s-2-4", "name": "三大平原", "order": 4 },
+        { "id": "geo-8s-2-5", "name": "主要丘陵", "order": 5 },
+        { "id": "geo-8s-2-6", "name": "复杂多样的气候", "order": 6 },
+        { "id": "geo-8s-2-7", "name": "季风气候", "order": 7 },
+        { "id": "geo-8s-2-8", "name": "河流概况", "order": 8 },
+        { "id": "geo-8s-2-9", "name": "长江", "order": 9 },
+        { "id": "geo-8s-2-10", "name": "黄河", "order": 10 },
+        { "id": "geo-8s-2-11", "name": "自然灾害", "order": 11 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 11,
+      "id": "geo-8s-3",
+      "name": "中国的自然资源",
+      "subChapters": [
+        { "id": "geo-8s-3-1", "name": "自然资源概况", "order": 1 },
+        { "id": "geo-8s-3-2", "name": "土地资源", "order": 2 },
+        { "id": "geo-8s-3-3", "name": "水资源", "order": 3 },
+        { "id": "geo-8s-3-4", "name": "矿产资源", "order": 4 },
+        { "id": "geo-8s-3-5", "name": "海洋资源", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 12,
+      "id": "geo-8s-4",
+      "name": "中国的经济发展",
+      "subChapters": [
+        { "id": "geo-8s-4-1", "name": "交通运输", "order": 1 },
+        { "id": "geo-8s-4-2", "name": "农业", "order": 2 },
+        { "id": "geo-8s-4-3", "name": "工业", "order": 3 },
+        { "id": "geo-8s-4-4", "name": "区域差异", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 13,
+      "id": "geo-8x-1",
+      "name": "四大地理区域",
+      "subChapters": [
+        { "id": "geo-8x-1-1", "name": "北方地区", "order": 1 },
+        { "id": "geo-8x-1-2", "name": "南方地区", "order": 2 },
+        { "id": "geo-8x-1-3", "name": "西北地区", "order": 3 },
+        { "id": "geo-8x-1-4", "name": "青藏地区", "order": 4 },
+        { "id": "geo-8x-1-5", "name": "区域联系", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 14,
+      "id": "geo-8x-2",
+      "name": "区域发展",
+      "subChapters": [
+        { "id": "geo-8x-2-1", "name": "黄土高原", "order": 1 },
+        { "id": "geo-8x-2-2", "name": "长江三角洲", "order": 2 },
+        { "id": "geo-8x-2-3", "name": "珠江三角洲", "order": 3 },
+        { "id": "geo-8x-2-4", "name": "港澳地区", "order": 4 },
+        { "id": "geo-8x-2-5", "name": "台湾省", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 15,
+      "id": "geo-8x-3",
+      "name": "生态文明与区域发展",
+      "subChapters": [
+        { "id": "geo-8x-3-1", "name": "中国西部开发", "order": 1 },
+        { "id": "geo-8x-3-2", "name": "生态保护", "order": 2 },
+        { "id": "geo-8x-3-3", "name": "资源调配", "order": 3 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "title": "英语核心语法与词汇",
+  "subject": "英语",
+  "gradeLevels": ["七年级上", "七年级下", "八年级上", "八年级下", "九年级上", "九年级下"],
+  "knowledgePoints": [
+    {
+      "id": "eng-1",
+      "chapterId": "yingyu-7s-1-1",
+      "name": "一般现在时",
+      "description": "表示经常性、习惯性动作或客观事实",
+      "difficulty": 1,
+      "content": "【构成】主语+动词原形（第三人称单数加-s/es）。【时间状语】always, usually, often, sometimes, every day。【否定】don't/doesn't + 动词原形。【疑问】Do/Does + 主语 + 动词原形。【三单变化】一般加-s；以s,x,ch,sh,o结尾加-es；以辅音字母+y结尾，y变i加-es。"
+    },
+    {
+      "id": "eng-2",
+      "chapterId": "yingyu-7s-1-2",
+      "name": "现在进行时",
+      "description": "表示正在发生的动作",
+      "difficulty": 1,
+      "content": "【构成】be动词 + 动词-ing。【现在分词变化规则】一般加-ing；以e结尾去e加-ing；重读闭音节结尾双写最后辅音字母加-ing。【时间状语】now, at present, at the moment, look, listen。【否定】be动词后加not。【疑问】be动词提前。"
+    },
+    {
+      "id": "eng-3",
+      "chapterId": "yingyu-7s-1-3",
+      "name": "一般过去时",
+      "description": "表示过去发生的动作或状态",
+      "difficulty": 1,
+      "content": "【构成】主语 + 动词过去式。【规则变化】一般加-ed；以e结尾加-d；以辅音字母+y结尾，y变i加-ed；重读闭音节结尾双写最后辅音字母加-ed。【时间状语】yesterday, last week, ago, in 2020。【否定】didn't + 动词原形。【疑问】Did + 主语 + 动词原形。"
+    },
+    {
+      "id": "eng-4",
+      "chapterId": "yingyu-7s-2-1",
+      "name": "一般将来时",
+      "description": "表示将来发生的动作或打算",
+      "difficulty": 1,
+      "content": "【构成】will + 动词原形 / be going to + 动词原形。【will】表示临时决定、预测、客观将来。【be going to】表示计划、打算、有迹象表明。【时间状语】tomorrow, next week, in the future, soon。【否定】will not = won't。【疑问】Will + 主语 + 动词原形？"
+    },
+    {
+      "id": "eng-5",
+      "chapterId": "yingyu-7s-2-2",
+      "name": "名词所有格",
+      "description": "表示所属关系",
+      "difficulty": 1,
+      "content": "【有生命名词所有格】单数加's；以s结尾加'或's；复数加'。【无生命名词所有格】of + 名词。【双重所有格】a friend of mine/Tom's。【易错点】my brother's car = the car of my brother。【名词可数性】可数名词有单复数，不可数名词无复数。"
+    },
+    {
+      "id": "eng-6",
+      "chapterId": "yingyu-7s-2-3",
+      "name": "形容词和副词",
+      "description": "形容词修饰名词，副词修饰动词、形容词、副词",
+      "difficulty": 1,
+      "content": "【形容词用法】修饰名词，位于be动词后。【副词用法】修饰动词，位于动词前或动词后。【形容词变副词】一般加-ly；以e结尾加-ly；辅音字母+y结尾y变i加-ly。【比较级规则】单音节词加-er；双音节词加-er或多-ly；多音节词加more。【最高级】加-est或多-ly。【比较结构】A + be + 形容词比较级 + than + B。"
+    },
+    {
+      "id": "eng-7",
+      "chapterId": "yingyu-7s-3-1",
+      "name": "现在完成时",
+      "description": "表示过去发生并持续到现在的动作或对现在的影响",
+      "difficulty": 2,
+      "content": "【构成】have/has + 过去分词。【has用于第三人称单数】【过去分词规则】与过去式相同。【时间状语】already, yet, ever, never, just, before, recently。【标志词】for + 时间段；since + 起点。【和一般过去时区别】现在完成时强调与现在的联系，一般过去时只强调过去的动作。【延续性动词】可与for/since连用，如live, study, work。【非延续性动词】不可与for/since连用，需转化为延续形式，如come→be here, buy→have。"
+    },
+    {
+      "id": "eng-8",
+      "chapterId": "yingyu-7s-3-2",
+      "name": "被动语态",
+      "description": "强调动作的承受者",
+      "difficulty": 2,
+      "content": "【构成】be + 过去分词。【一般现在时】am/is/are + 过去分词。【一般过去时】was/were + 过去分词。【一般将来时】will be + 过去分词。【现在进行时】am/is/are being + 过去分词。【现在完成时】have/has been + 过去分词。【by + 动作执行者】可省略。【主动变被动】宾语变主语，谓语变被动，主语变by宾语。"
+    },
+    {
+      "id": "eng-9",
+      "chapterId": "yingyu-7x-1-1",
+      "name": "宾语从句",
+      "description": "作及物动词或介词的宾语",
+      "difficulty": 2,
+      "content": "【连接词】that（可省略），if/whether，特殊疑问词。【语序】陈述语序。【时态】主过从过；客观真理仍用现在时。【that从句】I think that he is right.【whether/if从句】I don't know if/whether he will come.【疑问词从句】I wonder what he said.【宾语从句方位】think, believe, hope, expect等否定前移。"
+    },
+    {
+      "id": "eng-10",
+      "chapterId": "yingyu-7x-1-2",
+      "name": "情态动词",
+      "description": "表示能力、许可、可能性等",
+      "difficulty": 1,
+      "content": "【can/could】能力、许可、可能性。could更委婉。【may/might】可能性、许可。might更不确定。【must】必须、一定。【have to】不得不（客观需要）。【should】应该、建议。【need】需要（实义动词/情态动词）。【will】将来、意愿、请求。【would】过去将来、委婉请求。"
+    },
+    {
+      "id": "eng-11",
+      "chapterId": "yingyu-7x-2-1",
+      "name": "定语从句",
+      "description": "修饰名词或代词的从句",
+      "difficulty": 3,
+      "content": "【关系代词】who/whom（指人），which（指物），that（指人/物），whose（所有格）。【关系副词】when（时间），where（地点），why（原因）。【that用法】先行词为最高级、序数词、the only, the very, all, everything等，或主句有疑问词时。【限制性/非限制性】无逗号为限制性，有逗号为非限制性。【介词提前】the man to whom I spoke = the man whom I spoke to。"
+    },
+    {
+      "id": "eng-12",
+      "chapterId": "yingyu-8s-1-1",
+      "name": "used to 用法",
+      "description": "表示过去的习惯或状态",
+      "difficulty": 2,
+      "content": "【肯定句】主语 + used to + 动词原形。【否定句】主语 + didn't use to + 动词原形 / used not to + 动词原形。【疑问句】Did + 主语 + use to + 动词原形？【含义】过去常常，现在不再。【否定疑问题缩进】didn't use to / used you to...?"
+    },
+    {
+      "id": "eng-13",
+      "chapterId": "yingyu-8s-1-2",
+      "name": "感叹句",
+      "description": "表达强烈情感",
+      "difficulty": 1,
+      "content": "【what开头】What + a/an + 形容词 + 可数名词单数 + (主谓)！What + 形容词 + 可数名词复数/不可数名词 + (主谓)！【how开头】How + 形容词/副词 + (主谓)！How + 形容词 + a/an + 可数名词单数 + (主谓)！【例子】What a beautiful girl she is! = How beautiful a girl she is!"
+    },
+    {
+      "id": "eng-14",
+      "chapterId": "yingyu-8s-2-1",
+      "name": "条件状语从句",
+      "description": "表示假设或条件",
+      "difficulty": 2,
+      "content": "【if从句】if + 主语 + 动词原形（主将从现）；if + 主语 + 过去式（主过从过）。【unless】unless = if not。【other条件词】as long as（只要），provided that（假如），in case（以防）。【时态呼应】主将从现；主过从过。【unless例子】You'll fail unless you work hard. = You'll fail if you don't work hard."
+    },
+    {
+      "id": "eng-15",
+      "chapterId": "yingyu-8s-2-2",
+      "name": "阅读理解技巧",
+      "description": "中考阅读理解解题方法",
+      "difficulty": 2,
+      "content": "【先看题后读文】带着问题找答案。【细节题】定位关键词，排除干扰项。【推断题】根据文章信息推断，不能主观臆断。【词义猜测】根据上下文推断。【主旨题】看首尾段和每段首句。【态度题】注意褒贬义词。【标题选择】概括全文，避免以偏概全。【答题顺序】先易后难。"
+    }
+  ]
+}

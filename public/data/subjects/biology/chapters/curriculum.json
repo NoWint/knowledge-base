@@ -1,0 +1,232 @@
+{
+  "title": "人教版初中生物课程结构",
+  "version": "人教版",
+  "grades": [
+    {
+      "grade": "七年级上册",
+      "chapters": [
+        {
+          "id": "bio-7s-1",
+          "name": "生物与环境",
+          "orderIndex": 1,
+          "description": "生物与环境的关系、生态系统、生物学研究方法",
+          "subChapters": [
+            { "id": "bio-7s-1-1", "name": "生物的特征", "orderIndex": 1 },
+            { "id": "bio-7s-1-2", "name": "环境对生物的影响", "orderIndex": 2 },
+            { "id": "bio-7s-1-3", "name": "生物对环境的适应和影响", "orderIndex": 3 },
+            { "id": "bio-7s-1-4", "name": "生态系统", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "bio-7s-2",
+          "name": "植物类群",
+          "orderIndex": 2,
+          "description": "藻类、苔藓、蕨类、种子植物",
+          "subChapters": [
+            { "id": "bio-7s-2-1", "name": "藻类植物", "orderIndex": 1 },
+            { "id": "bio-7s-2-2", "name": "苔藓植物", "orderIndex": 2 },
+            { "id": "bio-7s-2-3", "name": "蕨类植物", "orderIndex": 3 },
+            { "id": "bio-7s-2-4", "name": "种子植物", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "bio-7s-3",
+          "name": "动物类群",
+          "orderIndex": 3,
+          "description": "无脊椎动物、脊椎动物",
+          "subChapters": [
+            { "id": "bio-7s-3-1", "name": "无脊椎动物", "orderIndex": 1 },
+            { "id": "bio-7s-3-2", "name": "脊椎动物", "orderIndex": 2 }
+          ]
+        },
+        {
+          "id": "bio-7s-4",
+          "name": "微生物",
+          "orderIndex": 4,
+          "description": "细菌、真菌、病毒",
+          "subChapters": [
+            { "id": "bio-7s-4-1", "name": "细菌", "orderIndex": 1 },
+            { "id": "bio-7s-4-2", "name": "真菌", "orderIndex": 2 },
+            { "id": "bio-7s-4-3", "name": "病毒", "orderIndex": 3 }
+          ]
+        },
+        {
+          "id": "bio-7s-5",
+          "name": "生物体的结构层次",
+          "orderIndex": 5,
+          "description": "细胞、组织、器官、系统、个体",
+          "subChapters": [
+            { "id": "bio-7s-5-1", "name": "细胞是生命活动的基本单位", "orderIndex": 1 },
+            { "id": "bio-7s-5-2", "name": "细胞分裂和分化", "orderIndex": 2 },
+            { "id": "bio-7s-5-3", "name": "多细胞生物体的结构层次", "orderIndex": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "七年级下册",
+      "chapters": [
+        {
+          "id": "bio-7x-6",
+          "name": "人的食物来自环境",
+          "orderIndex": 6,
+          "description": "食物中的营养、消化系统、合理营养",
+          "subChapters": [
+            { "id": "bio-7x-6-1", "name": "人类的食物", "orderIndex": 1 },
+            { "id": "bio-7x-6-2", "name": "消化系统的组成", "orderIndex": 2 },
+            { "id": "bio-7x-6-3", "name": "消化和吸收", "orderIndex": 3 },
+            { "id": "bio-7x-6-4", "name": "合理营养与食品安全", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "bio-7x-7",
+          "name": "人的呼吸",
+          "orderIndex": 7,
+          "description": "呼吸道、肺与外界气体交换、呼吸全过程",
+          "subChapters": [
+            { "id": "bio-7x-7-1", "name": "呼吸道对空气的处理", "orderIndex": 1 },
+            { "id": "bio-7x-7-2", "name": "肺与外界的气体交换", "orderIndex": 2 },
+            { "id": "bio-7x-7-3", "name": "气体在肺泡和组织细胞的交换", "orderIndex": 3 }
+          ]
+        },
+        {
+          "id": "bio-7x-8",
+          "name": "人体物质运输",
+          "orderIndex": 8,
+          "description": "血液、血管、心脏、血液循环",
+          "subChapters": [
+            { "id": "bio-7x-8-1", "name": "流动的组织-血液", "orderIndex": 1 },
+            { "id": "bio-7x-8-2", "name": "血流的管道-血管", "orderIndex": 2 },
+            { "id": "bio-7x-8-3", "name": "输送血液的泵-心脏", "orderIndex": 3 },
+            { "id": "bio-7x-8-4", "name": "血液循环", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "bio-7x-9",
+          "name": "人体生命调节",
+          "orderIndex": 9,
+          "description": "神经调节、激素调节",
+          "subChapters": [
+            { "id": "bio-7x-9-1", "name": "人体对外界环境的感知", "orderIndex": 1 },
+            { "id": "bio-7x-9-2", "name": "神经系统的组成", "orderIndex": 2 },
+            { "id": "bio-7x-9-3", "name": "神经调节的基本方式", "orderIndex": 3 },
+            { "id": "bio-7x-9-4", "name": "激素调节", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "bio-7x-10",
+          "name": "人类活动对生物圈的影响",
+          "orderIndex": 10,
+          "description": "生态环境问题、环境保护",
+          "subChapters": [
+            { "id": "bio-7x-10-1", "name": "分析人类活动对生态环境的影响", "orderIndex": 1 },
+            { "id": "bio-7x-10-2", "name": "探究环境污染对生物的影响", "orderIndex": 2 },
+            { "id": "bio-7x-10-3", "name": "拟定保护生态环境的计划", "orderIndex": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "八年级上册",
+      "chapters": [
+        {
+          "id": "bio-8s-11",
+          "name": "动物的运动和行为",
+          "orderIndex": 11,
+          "description": "动物的运动、动物的行为",
+          "subChapters": [
+            { "id": "bio-8s-11-1", "name": "动物的运动", "orderIndex": 1 },
+            { "id": "bio-8s-11-2", "name": "动物的行为", "orderIndex": 2 }
+          ]
+        },
+        {
+          "id": "bio-8s-12",
+          "name": "动物在生物圈中的作用",
+          "orderIndex": 12,
+          "description": "动物在生态系统中的作用、动物与人类的关系",
+          "subChapters": [
+            { "id": "bio-8s-12-1", "name": "动物在自然界中的作用", "orderIndex": 1 },
+            { "id": "bio-8s-12-2", "name": "动物与人类生活的关系", "orderIndex": 2 }
+          ]
+        },
+        {
+          "id": "bio-8s-13",
+          "name": "细菌真菌",
+          "orderIndex": 13,
+          "description": "细菌和真菌的分布、细菌、真菌、细菌和真菌在自然界中的作用",
+          "subChapters": [
+            { "id": "bio-8s-13-1", "name": "细菌和真菌的分布", "orderIndex": 1 },
+            { "id": "bio-8s-13-2", "name": "细菌", "orderIndex": 2 },
+            { "id": "bio-8s-13-3", "name": "真菌", "orderIndex": 3 },
+            { "id": "bio-8s-13-4", "name": "细菌和真菌在自然界中的作用", "orderIndex": 4 },
+            { "id": "bio-8s-13-5", "name": "人类对细菌和真菌的利用", "orderIndex": 5 }
+          ]
+        },
+        {
+          "id": "bio-8s-14",
+          "name": "传染病和免疫",
+          "orderIndex": 14,
+          "description": "传染病、免疫、用药与急救、急救常识",
+          "subChapters": [
+            { "id": "bio-8s-14-1", "name": "传染病及其预防", "orderIndex": 1 },
+            { "id": "bio-8s-14-2", "name": "免疫与计划免疫", "orderIndex": 2 },
+            { "id": "bio-8s-14-3", "name": "用药与急救", "orderIndex": 3 },
+            { "id": "bio-8s-14-4", "name": "急救常识", "orderIndex": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "八年级下册",
+      "chapters": [
+        {
+          "id": "bio-8x-15",
+          "name": "生物的生殖和发育",
+          "orderIndex": 15,
+          "description": "植物生殖、昆虫、两栖动物、鸟类的生殖和发育",
+          "subChapters": [
+            { "id": "bio-8x-15-1", "name": "植物的生殖", "orderIndex": 1 },
+            { "id": "bio-8x-15-2", "name": "昆虫的生殖和发育", "orderIndex": 2 },
+            { "id": "bio-8x-15-3", "name": "两栖动物的生殖和发育", "orderIndex": 3 },
+            { "id": "bio-8x-15-4", "name": "鸟类的生殖和发育", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "bio-8x-16",
+          "name": "遗传变异",
+          "orderIndex": 16,
+          "description": "基因控制性状、基因在亲子代间的传递、人类应用遗传变异培育新品种",
+          "subChapters": [
+            { "id": "bio-8x-16-1", "name": "基因控制生物的性状", "orderIndex": 1 },
+            { "id": "bio-8x-16-2", "name": "基因在亲子代间的传递", "orderIndex": 2 },
+            { "id": "bio-8x-16-3", "name": "基因显性和隐性", "orderIndex": 3 },
+            { "id": "bio-8x-16-4", "name": "人的性别遗传", "orderIndex": 4 },
+            { "id": "bio-8x-16-5", "name": "生物的变异", "orderIndex": 5 }
+          ]
+        },
+        {
+          "id": "bio-8x-17",
+          "name": "生物进化",
+          "orderIndex": 17,
+          "description": "生命的起源、生物进化历程、达尔文的进化论",
+          "subChapters": [
+            { "id": "bio-8x-17-1", "name": "地球上生命的起源", "orderIndex": 1 },
+            { "id": "bio-8x-17-2", "name": "生物进化的历程", "orderIndex": 2 },
+            { "id": "bio-8x-17-3", "name": "生物进化的原因", "orderIndex": 3 }
+          ]
+        },
+        {
+          "id": "bio-8x-18",
+          "name": "健康生活",
+          "orderIndex": 18,
+          "description": "传染病、用药、急救、健康的生活方式",
+          "subChapters": [
+            { "id": "bio-8x-18-1", "name": "传染病的预防", "orderIndex": 1 },
+            { "id": "bio-8x-18-2", "name": "免疫与计划免疫", "orderIndex": 2 },
+            { "id": "bio-8x-18-3", "name": "健康的生活方式", "orderIndex": 3 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "title": "人教版初中物理课程结构",
+  "version": "人教版",
+  "grades": [
+    {
+      "grade": "八年级上册",
+      "chapters": [
+        {
+          "id": "phy-8s-1",
+          "name": "机械运动",
+          "orderIndex": 1,
+          "description": "长度、时间、运动的描述、速度",
+          "subChapters": [
+            { "id": "phy-8s-1-1", "name": "长度和时间的测量", "orderIndex": 1 },
+            { "id": "phy-8s-1-2", "name": "运动的描述", "orderIndex": 2 },
+            { "id": "phy-8s-1-3", "name": "运动的快慢", "orderIndex": 3 },
+            { "id": "phy-8s-1-4", "name": "测量平均速度", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "phy-8s-2",
+          "name": "声现象",
+          "orderIndex": 2,
+          "description": "声音的产生传播、特性、利用、噪声",
+          "subChapters": [
+            { "id": "phy-8s-2-1", "name": "声音的产生与传播", "orderIndex": 1 },
+            { "id": "phy-8s-2-2", "name": "声音的特性", "orderIndex": 2 },
+            { "id": "phy-8s-2-3", "name": "声的利用", "orderIndex": 3 },
+            { "id": "phy-8s-2-4", "name": "噪声的危害和控制", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "phy-8s-3",
+          "name": "物态变化",
+          "orderIndex": 3,
+          "description": "温度、熔化凝固、汽化液化、升华凝华",
+          "subChapters": [
+            { "id": "phy-8s-3-1", "name": "温度", "orderIndex": 1 },
+            { "id": "phy-8s-3-2", "name": "熔化和凝固", "orderIndex": 2 },
+            { "id": "phy-8s-3-3", "name": "汽化和液化", "orderIndex": 3 },
+            { "id": "phy-8s-3-4", "name": "升华和凝华", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "phy-8s-4",
+          "name": "光现象",
+          "orderIndex": 4,
+          "description": "光的传播、反射、平面镜成像、折射、色散",
+          "subChapters": [
+            { "id": "phy-8s-4-1", "name": "光的直线传播", "orderIndex": 1 },
+            { "id": "phy-8s-4-2", "name": "光的反射", "orderIndex": 2 },
+            { "id": "phy-8s-4-3", "name": "平面镜成像", "orderIndex": 3 },
+            { "id": "phy-8s-4-4", "name": "光的折射", "orderIndex": 4 },
+            { "id": "phy-8s-4-5", "name": "光的色散", "orderIndex": 5 }
+          ]
+        },
+        {
+          "id": "phy-8s-5",
+          "name": "透镜及其应用",
+          "orderIndex": 5,
+          "description": "透镜、生活中透镜、眼睛和眼镜、显微镜望远镜",
+          "subChapters": [
+            { "id": "phy-8s-5-1", "name": "透镜", "orderIndex": 1 },
+            { "id": "phy-8s-5-2", "name": "生活中的透镜", "orderIndex": 2 },
+            { "id": "phy-8s-5-3", "name": "凸透镜成像的规律", "orderIndex": 3 },
+            { "id": "phy-8s-5-4", "name": "眼睛和眼镜", "orderIndex": 4 },
+            { "id": "phy-8s-5-5", "name": "显微镜和望远镜", "orderIndex": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "八年级下册",
+      "chapters": [
+        {
+          "id": "phy-8x-6",
+          "name": "力",
+          "orderIndex": 6,
+          "description": "力、弹力、重力、牛顿第一定律、二力平衡、摩擦力",
+          "subChapters": [
+            { "id": "phy-8x-6-1", "name": "力", "orderIndex": 1 },
+            { "id": "phy-8x-6-2", "name": "弹力", "orderIndex": 2 },
+            { "id": "phy-8x-6-3", "name": "重力", "orderIndex": 3 },
+            { "id": "phy-8x-6-4", "name": "牛顿第一定律", "orderIndex": 4 },
+            { "id": "phy-8x-6-5", "name": "二力平衡", "orderIndex": 5 },
+            { "id": "phy-8x-6-6", "name": "摩擦力", "orderIndex": 6 }
+          ]
+        },
+        {
+          "id": "phy-8x-7",
+          "name": "运动和力",
+          "orderIndex": 7,
+          "description": "力的合成、平衡状态、应用",
+          "subChapters": [
+            { "id": "phy-8x-7-1", "name": "力的合成", "orderIndex": 1 },
+            { "id": "phy-8x-7-2", "name": "平衡状态的应用", "orderIndex": 2 }
+          ]
+        },
+        {
+          "id": "phy-8x-8",
+          "name": "压强",
+          "orderIndex": 8,
+          "description": "压力压强、液体压强、大气压强、浮力",
+          "subChapters": [
+            { "id": "phy-8x-8-1", "name": "压强", "orderIndex": 1 },
+            { "id": "phy-8x-8-2", "name": "液体的压强", "orderIndex": 2 },
+            { "id": "phy-8x-8-3", "name": "大气压强", "orderIndex": 3 },
+            { "id": "phy-8x-8-4", "name": "流体压强与流速的关系", "orderIndex": 4 },
+            { "id": "phy-8x-8-5", "name": "浮力", "orderIndex": 5 },
+            { "id": "phy-8x-8-6", "name": "浮力的应用", "orderIndex": 6 }
+          ]
+        },
+        {
+          "id": "phy-8x-9",
+          "name": "功和机械能",
+          "orderIndex": 9,
+          "description": "功、功率、机械效率、机械能",
+          "subChapters": [
+            { "id": "phy-8x-9-1", "name": "功", "orderIndex": 1 },
+            { "id": "phy-8x-9-2", "name": "功率", "orderIndex": 2 },
+            { "id": "phy-8x-9-3", "name": "动能和势能", "orderIndex": 3 },
+            { "id": "phy-8x-9-4", "name": "机械能及其转化", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "phy-8x-10",
+          "name": "简单机械",
+          "orderIndex": 10,
+          "description": "杠杆、滑轮、斜面",
+          "subChapters": [
+            { "id": "phy-8x-10-1", "name": "杠杆", "orderIndex": 1 },
+            { "id": "phy-8x-10-2", "name": "滑轮", "orderIndex": 2 },
+            { "id": "phy-8x-10-3", "name": "机械效率", "orderIndex": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "九年级全一册",
+      "chapters": [
+        {
+          "id": "phy-9-11",
+          "name": "热和能",
+          "orderIndex": 11,
+          "description": "分子热运动、内能、比热容、热机",
+          "subChapters": [
+            { "id": "phy-9-11-1", "name": "分子热运动", "orderIndex": 1 },
+            { "id": "phy-9-11-2", "name": "内能", "orderIndex": 2 },
+            { "id": "phy-9-11-3", "name": "比热容", "orderIndex": 3 },
+            { "id": "phy-9-11-4", "name": "热机", "orderIndex": 4 },
+            { "id": "phy-9-11-5", "name": "能量的转化和守恒", "orderIndex": 5 }
+          ]
+        },
+        {
+          "id": "phy-9-12",
+          "name": "电流和电路",
+          "orderIndex": 12,
+          "description": "电流、电压、电阻、欧姆定律",
+          "subChapters": [
+            { "id": "phy-9-12-1", "name": "电荷", "orderIndex": 1 },
+            { "id": "phy-9-12-2", "name": "电流和电路", "orderIndex": 2 },
+            { "id": "phy-9-12-3", "name": "串联和并联", "orderIndex": 3 },
+            { "id": "phy-9-12-4", "name": "电流的强弱", "orderIndex": 4 },
+            { "id": "phy-9-12-5", "name": "电压", "orderIndex": 5 },
+            { "id": "phy-9-12-6", "name": "电阻", "orderIndex": 6 },
+            { "id": "phy-9-12-7", "name": "欧姆定律", "orderIndex": 7 }
+          ]
+        },
+        {
+          "id": "phy-9-13",
+          "name": "电功率",
+          "orderIndex": 13,
+          "description": "电功、电功率、测量焦耳定律",
+          "subChapters": [
+            { "id": "phy-9-13-1", "name": "电能 电功", "orderIndex": 1 },
+            { "id": "phy-9-13-2", "name": "电功率", "orderIndex": 2 },
+            { "id": "phy-9-13-3", "name": "测量小灯泡的电功率", "orderIndex": 3 },
+            { "id": "phy-9-13-4", "name": "焦耳定律", "orderIndex": 4 }
+          ]
+        },
+        {
+          "id": "phy-9-14",
+          "name": "电磁",
+          "orderIndex": 14,
+          "description": "磁场、电生磁、电磁铁、电动机、磁生电",
+          "subChapters": [
+            { "id": "phy-9-14-1", "name": "磁现象 磁场", "orderIndex": 1 },
+            { "id": "phy-9-14-2", "name": "电生磁", "orderIndex": 2 },
+            { "id": "phy-9-14-3", "name": "电磁铁 电磁继电器", "orderIndex": 3 },
+            { "id": "phy-9-14-4", "name": "电动机", "orderIndex": 4 },
+            { "id": "phy-9-14-5", "name": "磁生电", "orderIndex": 5 }
+          ]
+        },
+        {
+          "id": "phy-9-15",
+          "name": "信息的传递",
+          "orderIndex": 15,
+          "description": "电磁波、现代通信、能源与可持续发展",
+          "subChapters": [
+            { "id": "phy-9-15-1", "name": "电磁波", "orderIndex": 1 },
+            { "id": "phy-9-15-2", "name": "广播、电视和移动通信", "orderIndex": 2 },
+            { "id": "phy-9-15-3", "name": "能源与可持续发展", "orderIndex": 3 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "subject": "历史",
+  "version": "人教版统编本",
+  "gradeLevels": ["七年级上", "七年级下", "八年级上", "八年级下", "九年级上", "九年级下"],
+  "periods": [
+    { "id": "ancient", "name": "中国古代史", "grades": ["七年级上", "七年级下"] },
+    { "id": "modern", "name": "中国近现代史", "grades": ["八年级上", "八年级下"] },
+    { "id": "world", "name": "世界历史", "grades": ["九年级上", "九年级下"] }
+  ],
+  "chapters": [
+    {
+      "grade": "七年级上",
+      "period": "ancient",
+      "order": 1,
+      "id": "history-7s-1",
+      "name": "史前时期",
+      "subChapters": [
+        { "id": "history-7s-1-1", "name": "中国境内早期人类", "order": 1 },
+        { "id": "history-7s-1-2", "name": "原始农耕生活", "order": 2 },
+        { "id": "history-7s-1-3", "name": "远古传说时代", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "period": "ancient",
+      "order": 2,
+      "id": "history-7s-2",
+      "name": "夏商周时期",
+      "subChapters": [
+        { "id": "history-7s-2-1", "name": "夏朝建立与商朝兴亡", "order": 1 },
+        { "id": "history-7s-2-2", "name": "西周分封制", "order": 2 },
+        { "id": "history-7s-2-3", "name": "青铜器与甲骨文", "order": 3 },
+        { "id": "history-7s-2-4", "name": "春秋战国社会变化", "order": 4 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "period": "ancient",
+      "order": 3,
+      "id": "history-7s-3",
+      "name": "秦汉时期",
+      "subChapters": [
+        { "id": "history-7s-3-1", "name": "秦朝统一", "order": 1 },
+        { "id": "history-7s-3-2", "name": "秦末农民起义", "order": 2 },
+        { "id": "history-7s-3-3", "name": "汉朝巩固", "order": 3 },
+        { "id": "history-7s-3-4", "name": "丝绸之路", "order": 4 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "period": "ancient",
+      "order": 4,
+      "id": "history-7s-4",
+      "name": "三国两晋南北朝",
+      "subChapters": [
+        { "id": "history-7s-4-1", "name": "三国鼎立", "order": 1 },
+        { "id": "history-7s-4-2", "name": "西晋统一", "order": 2 },
+        { "id": "history-7s-4-3", "name": "东晋与南朝", "order": 3 },
+        { "id": "history-7s-4-4", "name": "北朝与孝文帝改革", "order": 4 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "period": "ancient",
+      "order": 5,
+      "id": "history-7x-1",
+      "name": "隋唐时期",
+      "subChapters": [
+        { "id": "history-7x-1-1", "name": "隋朝统一", "order": 1 },
+        { "id": "history-7x-1-2", "name": "唐朝开元盛世", "order": 2 },
+        { "id": "history-7x-1-3", "name": "安史之乱", "order": 3 },
+        { "id": "history-7x-1-4", "name": "唐朝衰落", "order": 4 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "period": "ancient",
+      "order": 6,
+      "id": "history-7x-2",
+      "name": "宋元时期",
+      "subChapters": [
+        { "id": "history-7x-2-1", "name": "北宋建立与中央集权", "order": 1 },
+        { "id": "history-7x-2-2", "name": "辽夏金元并立", "order": 2 },
+        { "id": "history-7x-2-3", "name": "南宋与元朝统一", "order": 3 },
+        { "id": "history-7x-2-4", "name": "宋代经济与文化", "order": 4 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "period": "ancient",
+      "order": 7,
+      "id": "history-7x-3",
+      "name": "明清时期",
+      "subChapters": [
+        { "id": "history-7x-3-1", "name": "明朝建立与强化皇权", "order": 1 },
+        { "id": "history-7x-3-2", "name": "清朝统一与疆域", "order": 2 },
+        { "id": "history-7x-3-3", "name": "明清经济与对外关系", "order": 3 },
+        { "id": "history-7x-3-4", "name": "明清科技与思想", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "period": "modern",
+      "order": 1,
+      "id": "history-8s-1",
+      "name": "鸦片战争与半殖民地化",
+      "subChapters": [
+        { "id": "history-8s-1-1", "name": "鸦片走私与林则徐禁烟", "order": 1 },
+        { "id": "history-8s-1-2", "name": "鸦片战争", "order": 2 },
+        { "id": "history-8s-1-3", "name": "南京条约与战后影响", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "period": "modern",
+      "order": 2,
+      "id": "history-8s-2",
+      "name": "太平天国与洋务运动",
+      "subChapters": [
+        { "id": "history-8s-2-1", "name": "太平天国运动", "order": 1 },
+        { "id": "history-8s-2-2", "name": "洋务运动", "order": 2 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "period": "modern",
+      "order": 3,
+      "id": "history-8s-3",
+      "name": "甲午战争与列强瓜分",
+      "subChapters": [
+        { "id": "history-8s-3-1", "name": "甲午中日战争", "order": 1 },
+        { "id": "history-8s-3-2", "name": "马关条约", "order": 2 },
+        { "id": "history-8s-3-3", "name": "瓜分中国狂潮", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "period": "modern",
+      "order": 4,
+      "id": "history-8s-4",
+      "name": "戊戌变法与辛亥革命",
+      "subChapters": [
+        { "id": "history-8s-4-1", "name": "戊戌变法", "order": 1 },
+        { "id": "history-8s-4-2", "name": "辛亥革命", "order": 2 },
+        { "id": "history-8s-4-3", "name": "中华民国成立", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "period": "modern",
+      "order": 5,
+      "id": "history-8s-5",
+      "name": "新民主主义革命开端",
+      "subChapters": [
+        { "id": "history-8s-5-1", "name": "新文化运动", "order": 1 },
+        { "id": "history-8s-5-2", "name": "五四运动", "order": 2 },
+        { "id": "history-8s-5-3", "name": "中共成立", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "period": "modern",
+      "order": 6,
+      "id": "history-8x-1",
+      "name": "国共十年对峙",
+      "subChapters": [
+        { "id": "history-8x-1-1", "name": "南昌起义", "order": 1 },
+        { "id": "history-8x-1-2", "name": "井冈山道路", "order": 2 },
+        { "id": "history-8x-1-3", "name": "红军长征", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "period": "modern",
+      "order": 7,
+      "id": "history-8x-2",
+      "name": "抗日战争",
+      "subChapters": [
+        { "id": "history-8x-2-1", "name": "九一八事变", "order": 1 },
+        { "id": "history-8x-2-2", "name": "西安事变", "order": 2 },
+        { "id": "history-8x-2-3", "name": "全面抗战", "order": 3 },
+        { "id": "history-8x-2-4", "name": "抗战胜利", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "period": "modern",
+      "order": 8,
+      "id": "history-8x-3",
+      "name": "解放战争",
+      "subChapters": [
+        { "id": "history-8x-3-1", "name": "重庆谈判", "order": 1 },
+        { "id": "history-8x-3-2", "name": "全面内战", "order": 2 },
+        { "id": "history-8x-3-3", "name": "三大战役", "order": 3 },
+        { "id": "history-8x-3-4", "name": "渡江战役", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "period": "modern",
+      "order": 9,
+      "id": "history-8x-4",
+      "name": "现代史",
+      "subChapters": [
+        { "id": "history-8x-4-1", "name": "新中国成立", "order": 1 },
+        { "id": "history-8x-4-2", "name": "土地改革", "order": 2 },
+        { "id": "history-8x-4-3", "name": "一五计划与三大改造", "order": 3 },
+        { "id": "history-8x-4-4", "name": "探索社会主义建设", "order": 4 },
+        { "id": "history-8x-4-5", "name": "改革开放", "order": 5 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "period": "world",
+      "order": 1,
+      "id": "history-9s-1",
+      "name": "古代亚非文明",
+      "subChapters": [
+        { "id": "history-9s-1-1", "name": "古代埃及文明", "order": 1 },
+        { "id": "history-9s-1-2", "name": "古代两河流域", "order": 2 },
+        { "id": "history-9s-1-3", "name": "古代印度文明", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "period": "world",
+      "order": 2,
+      "id": "history-9s-2",
+      "name": "古代希腊罗马",
+      "subChapters": [
+        { "id": "history-9s-2-1", "name": "古代希腊文明", "order": 1 },
+        { "id": "history-9s-2-2", "name": "亚历山大帝国", "order": 2 },
+        { "id": "history-9s-2-3", "name": "古代罗马文明", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "period": "world",
+      "order": 3,
+      "id": "history-9s-3",
+      "name": "中世纪欧洲",
+      "subChapters": [
+        { "id": "history-9s-3-1", "name": "法兰克王国", "order": 1 },
+        { "id": "history-9s-3-2", "name": "基督教与庄园", "order": 2 },
+        { "id": "history-9s-3-3", "name": "城市与大学", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "period": "world",
+      "order": 4,
+      "id": "history-9s-4",
+      "name": "文艺复兴与宗教改革",
+      "subChapters": [
+        { "id": "history-9s-4-1", "name": "文艺复兴", "order": 1 },
+        { "id": "history-9s-4-2", "name": "宗教改革", "order": 2 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "period": "world",
+      "order": 5,
+      "id": "history-9s-5",
+      "name": "资产阶级革命",
+      "subChapters": [
+        { "id": "history-9s-5-1", "name": "英国资产阶级革命", "order": 1 },
+        { "id": "history-9s-5-2", "name": "美国独立战争", "order": 2 },
+        { "id": "history-9s-5-3", "name": "法国大革命", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "period": "world",
+      "order": 6,
+      "id": "history-9x-1",
+      "name": "工业革命",
+      "subChapters": [
+        { "id": "history-9x-1-1", "name": "第一次工业革命", "order": 1 },
+        { "id": "history-9x-1-2", "name": "第二次工业革命", "order": 2 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "period": "world",
+      "order": 7,
+      "id": "history-9x-2",
+      "name": "世界大战",
+      "subChapters": [
+        { "id": "history-9x-2-1", "name": "第一次世界大战", "order": 1 },
+        { "id": "history-9x-2-2", "name": "凡尔赛-华盛顿体系", "order": 2 },
+        { "id": "history-9x-2-3", "name": "第二次世界大战", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "period": "world",
+      "order": 8,
+      "id": "history-9x-3",
+      "name": "冷战与世界格局",
+      "subChapters": [
+        { "id": "history-9x-3-1", "name": "冷战与两极格局", "order": 1 },
+        { "id": "history-9x-3-2", "name": "多极化趋势", "order": 2 },
+        { "id": "history-9x-3-3", "name": "全球化与中国", "order": 3 }
+      ]
+    }
+  ]
+}
