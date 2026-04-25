@@ -202,7 +202,7 @@ function SidebarNavContent({
             E
           </div>
           {!collapsed && (
-            <span className="text-lg font-bold text-gray-900">知识库</span>
+            <span className="text-lg font-bold text-gray-900">Eric知识库</span>
           )}
         </Link>
       </div>
@@ -379,7 +379,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 text-white font-bold shadow-sm">
               E
             </div>
-            <span className="text-base font-bold text-gray-900">知识库</span>
+            <span className="text-base font-bold text-gray-900">Eric知识库</span>
           </Link>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
