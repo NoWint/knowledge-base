@@ -1,0 +1,341 @@
+{
+  "title": "初中物理核心公式定理速查表",
+  "version": "人教版",
+  "categories": {
+    "力学": {
+      "运动学": [
+        {
+          "name": "速度公式",
+          "formula": "$v = \\frac{s}{t}$",
+          "unit": "m/s（米/秒）",
+          "applicable": "匀速直线运动",
+          "derivation": "速度等于路程除以时间",
+          "commonMistakes": ["单位不统一", "v、s、t三者不对应"]
+        },
+        {
+          "name": "密度公式",
+          "formula": "$\\rho = \\frac{m}{V}$",
+          "unit": "kg/m³（千克/立方米）",
+          "applicable": "任何物质",
+          "derivation": "密度等于质量除以体积",
+          "commonMistakes": ["密度与质量成正比（错误）", "体积单位用错"]
+        },
+        {
+          "name": "重力公式",
+          "formula": "$G = mg$",
+          "unit": "N（牛顿）",
+          "applicable": "地球表面附近",
+          "derivation": "g = 9.8N/kg，一般取10N/kg",
+          "commonMistakes": ["g值记错", "质量与重力混淆"]
+        },
+        {
+          "name": "压强定义式",
+          "formula": "$p = \\frac{F}{S}$",
+          "unit": "Pa（帕斯卡）",
+          "applicable": "任何压强计算",
+          "derivation": "压强等于压力除以受力面积",
+          "commonMistakes": ["压力与重力混淆", "受力面积计算错误"]
+        },
+        {
+          "name": "液体压强公式",
+          "formula": "$p = \\rho gh$",
+          "unit": "Pa（帕斯卡）",
+          "applicable": "液体内部竖直方向",
+          "derivation": "由p=F/S和F=G推导",
+          "commonMistakes": ["h是深度不是高度", "液体密度用错"]
+        },
+        {
+          "name": "阿基米德原理",
+          "formula": "$F_{浮} = G_{排} = \\rho_{液}gV_{排}$",
+          "unit": "N（牛顿）",
+          "applicable": "物体在液体或气体中",
+          "derivation": "浮力等于排开液体的重力",
+          "commonMistakes": ["V排与V物混淆", "用错液体密度"]
+        },
+        {
+          "name": "浮沉条件",
+          "formula": "$F_浮 > G$ 上浮\n$F_浮 = G$ 悬浮\n$F_浮 < G$ 下沉",
+          "unit": "N（牛顿）",
+          "applicable": "物体在液体中的浮沉",
+          "derivation": "比较浮力与重力大小"
+        },
+        {
+          "name": "功的定义式",
+          "formula": "$W = Fs$",
+          "unit": "J（焦耳）",
+          "applicable": "力与移动方向一致",
+          "derivation": "功等于力与在力的方向上移动的距离的乘积",
+          "commonMistakes": ["s不是总路程", "力的方向与移动方向不一致"]
+        },
+        {
+          "name": "功率公式",
+          "formula": "$P = \\frac{W}{t} = Fv$",
+          "unit": "W（瓦特）",
+          "applicable": "任何机械",
+          "derivation": "功率等于功除以时间，或力乘以速度",
+          "commonMistakes": ["时间用错", "平均功率与瞬时功率混淆"]
+        },
+        {
+          "name": "机械效率",
+          "formula": "$\\eta = \\frac{W_{有}}{W_{总}} \\times 100\\%$",
+          "unit": "%（百分比）",
+          "applicable": "任何机械",
+          "derivation": "有用功除以总功",
+          "commonMistakes": ["有用功与总功混淆", "计算时忘乘100%"]
+        },
+        {
+          "name": "动能公式",
+          "formula": "$E_k = \\frac{1}{2}mv^2$",
+          "unit": "J（焦耳）",
+          "applicable": "运动的物体",
+          "derivation": "动能与质量成正比，与速度平方成正比",
+          "commonMistakes": ["速度用错（应用v²）"]
+        },
+        {
+          "name": "重力势能公式",
+          "formula": "$E_p = mgh$",
+          "unit": "J（焦耳）",
+          "applicable": "被举高的物体",
+          "derivation": "势能与质量、高度、重力加速度成正比",
+          "commonMistakes": ["h是高度不是到地面距离"]
+        },
+        {
+          "name": "杠杆平衡条件",
+          "formula": "$F_1 L_1 = F_2 L_2$",
+          "unit": "N·m（牛顿·米）",
+          "applicable": "杠杆平衡",
+          "derivation": "动力乘以动力臂等于阻力乘以阻力臂",
+          "commonMistakes": ["力臂找错", "力的方向画反"]
+        }
+      ],
+      "力学计算": [
+        {
+          "name": "滑轮组拉力",
+          "formula": "$F = \\frac{G}{n}$（不计动滑轮重力）\n$F = \\frac{G + G_{动}}{n}$（计动滑轮重力）",
+          "unit": "N（牛顿）",
+          "applicable": "滑轮组",
+          "derivation": "拉力等于总重除以绳子段数",
+          "commonMistakes": ["n数错", "忘记动滑轮重力"]
+        },
+        {
+          "name": "滑轮组机械效率",
+          "formula": "$\\eta = \\frac{W_{有}}{W_{总}} = \\frac{Gh}{Fnh} = \\frac{G}{nF}$",
+          "unit": "%（百分比）",
+          "applicable": "滑轮组",
+          "derivation": "有用功除以总功",
+          "commonMistakes": ["G和F混淆"]
+        },
+        {
+          "name": "斜面机械效率",
+          "formula": "$\\eta = \\frac{W_{有}}{W_{总}} = \\frac{Gh}{FL}$",
+          "unit": "%（百分比）",
+          "applicable": "斜面",
+          "derivation": "有用功除以总功",
+          "commonMistakes": ["L是斜面长度不是高度"]
+        }
+      ]
+    },
+    "电学": {
+      "基本公式": [
+        {
+          "name": "电流定义式",
+          "formula": "$I = \\frac{Q}{t}$",
+          "unit": "A（安培）",
+          "applicable": "任何电路",
+          "derivation": "电流等于电荷量除以时间",
+          "commonMistakes": ["单位用错", "Q是电荷量不是电量"]
+        },
+        {
+          "name": "电压与电流关系",
+          "formula": "$I = \\frac{U}{R}$",
+          "unit": "A（安培）",
+          "applicable": "欧姆定律适用电路",
+          "derivation": "电流与电压成正比，与电阻成反比",
+          "commonMistakes": ["R不变时I与U成正比", "U不变时I与R成反比"]
+        },
+        {
+          "name": "电阻定义式",
+          "formula": "$R = \\frac{U}{I}$",
+          "unit": "Ω（欧姆）",
+          "applicable": "任何导体",
+          "derivation": "电阻等于电压除以电流",
+          "commonMistakes": ["电阻不由U、I决定（是导体属性）"]
+        },
+        {
+          "name": "电功公式",
+          "formula": "$W = UIt = I^2Rt = \\frac{U^2}{R}t$",
+          "unit": "J（焦耳）",
+          "applicable": "任何电路",
+          "derivation": "电功等于电压、电流、时间的乘积",
+          "commonMistakes": ["混用公式"]
+        },
+        {
+          "name": "电功率公式",
+          "formula": "$P = UI = I^2R = \\frac{U^2}{R}$",
+          "unit": "W（瓦特）",
+          "applicable": "任何电路",
+          "derivation": "功率等于电压与电流的乘积",
+          "commonMistakes": ["额定功率与实际功率混淆"]
+        },
+        {
+          "name": "焦耳定律",
+          "formula": "$Q = I^2Rt$",
+          "unit": "J（焦耳）",
+          "applicable": "电流通过导体",
+          "derivation": "热量与电流平方、电阻、时间成正比",
+          "commonMistakes": ["所有电路都用I²Rt"]
+        }
+      ],
+      "串联与并联": [
+        {
+          "name": "串联电路电流",
+          "formula": "$I = I_1 = I_2 = ... = I_n$",
+          "unit": "A（安培）",
+          "applicable": "串联电路",
+          "derivation": "电流处处相等"
+        },
+        {
+          "name": "串联电路电压",
+          "formula": "$U = U_1 + U_2 + ... + U_n$",
+          "unit": "V（伏特）",
+          "applicable": "串联电路",
+          "derivation": "总电压等于各部分电压之和"
+        },
+        {
+          "name": "串联电路电阻",
+          "formula": "$R = R_1 + R_2 + ... + R_n$",
+          "unit": "Ω（欧姆）",
+          "applicable": "串联电路",
+          "derivation": "总电阻等于各电阻之和"
+        },
+        {
+          "name": "并联电路电流",
+          "formula": "$I = I_1 + I_2 + ... + I_n$",
+          "unit": "A（安培）",
+          "applicable": "并联电路",
+          "derivation": "干路电流等于各支路电流之和"
+        },
+        {
+          "name": "并联电路电压",
+          "formula": "$U = U_1 = U_2 = ... = U_n$",
+          "unit": "V（伏特）",
+          "applicable": "并联电路",
+          "derivation": "各支路两端电压相等"
+        },
+        {
+          "name": "并联电路电阻",
+          "formula": "$\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2} + ... + \\frac{1}{R_n}$",
+          "unit": "Ω（欧姆）",
+          "applicable": "并联电路",
+          "derivation": "总电阻的倒数等于各电阻倒数之和"
+        }
+      ]
+    },
+    "热学": {
+      "物态变化": [
+        {
+          "name": "温度公式",
+          "formula": "$T = t + 273.15$",
+          "unit": "K（开尔文）",
+          "applicable": "摄氏温度与热力学温度转换",
+          "derivation": "热力学温度 = 摄氏温度 + 273.15"
+        },
+        {
+          "name": "比热容定义",
+          "formula": "$c = \\frac{Q}{m\\Delta t}$",
+          "unit": "J/(kg·℃)",
+          "applicable": "物质吸放热计算",
+          "derivation": "单位质量物质升高（或降低）1℃吸收（或放出）的热量",
+          "commonMistakes": ["公式变形错误", "Δt是温度变化不是温度"]
+        },
+        {
+          "name": "燃料燃烧放热",
+          "formula": "$Q = mq$",
+          "unit": "J（焦耳）",
+          "applicable": "燃料燃烧",
+          "derivation": "热量等于燃料质量乘以热值",
+          "commonMistakes": ["热值记错", "质量与体积混淆"]
+        },
+        {
+          "name": "吸热公式",
+          "formula": "$Q_{吸} = cm(t - t_0)$",
+          "unit": "J（焦耳）",
+          "applicable": "物体升温",
+          "derivation": "吸收热量等于比热容、质量、升高温度的乘积"
+        },
+        {
+          "name": "放热公式",
+          "formula": "$Q_{放} = cm(t_0 - t)$",
+          "unit": "J（焦耳）",
+          "applicable": "物体降温",
+          "derivation": "放出热量等于比热容、质量、降低温度的乘积"
+        },
+        {
+          "name": "热效率",
+          "formula": "$\\eta = \\frac{Q_{有用}}{Q_{总}} \\times 100\\%$",
+          "unit": "%（百分比）",
+          "applicable": "热机、锅炉等",
+          "derivation": "有用热量除以总热量"
+        }
+      ]
+    },
+    "光学": {
+      "基本规律": [
+        {
+          "name": "光的反射定律",
+          "formula": "反射角 = 入射角",
+          "unit": "度（°）",
+          "applicable": "光的反射",
+          "derivation": "反射光线、入射光线、法线在同一平面内，反射光线和入射光线分居法线两侧"
+        },
+        {
+          "name": "平面镜成像特点",
+          "formula": "像与物关于平面镜对称",
+          "unit": "-",
+          "applicable": "平面镜成像",
+          "derivation": "像与物大小相等，像与物到镜面距离相等"
+        },
+        {
+          "name": "光的折射定律",
+          "formula": "光从空气斜射入水/玻璃时，折射角 < 入射角",
+          "unit": "度（°）",
+          "applicable": "光的折射",
+          "derivation": "折射光线、入射光线、法线在同一平面内"
+        },
+        {
+          "name": "凸透镜成像规律",
+          "formula": "u > 2f：倒立缩小实像\nf < u < 2f：倒立放大实像\nu < f：正立放大虚像",
+          "unit": "-",
+          "applicable": "凸透镜",
+          "derivation": "物距不同，成像不同"
+        }
+      ]
+    },
+    "声学": {
+      "基本公式": [
+        {
+          "name": "声音传播速度",
+          "formula": "$v = \\frac{s}{t}$",
+          "unit": "m/s（米/秒）",
+          "applicable": "声音传播",
+          "derivation": "声音在不同介质中速度不同（15℃空气约340m/s）",
+          "commonMistakes": ["忘记介质影响"]
+        },
+        {
+          "name": "音调与频率",
+          "formula": "$f = \\frac{n}{t}$",
+          "unit": "Hz（赫兹）",
+          "applicable": "声音",
+          "derivation": "频率表示音调高低"
+        },
+        {
+          "name": "响度与振幅",
+          "formula": "响度与振幅成正比",
+          "unit": "-",
+          "applicable": "声音",
+          "derivation": "振幅越大，响度越大"
+        }
+      ]
+    }
+  }
+}

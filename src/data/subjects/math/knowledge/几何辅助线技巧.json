@@ -1,0 +1,263 @@
+{
+  "title": "几何辅助线添加技巧大全",
+  "version": "北师大版",
+  "categories": [
+    {
+      "name": "三角形辅助线",
+      "order": 1,
+      "techniques": [
+        {
+          "name": "延长法",
+          "description": "延长边或中线，构造特殊图形",
+          "application": "当图形中有中线时，常延长至2倍构造平行四边形",
+          "example": {
+            "content": "在△ABC中，AD为中线，求证：AB + AC > 2AD",
+            "diagram": "延长AD至E，使DE = AD，连接BE",
+            "solution": "由延长构造平行四边形，利用三边关系证明",
+            "key": "遇中线，延长2倍"
+          },
+          "variations": [
+            "延长中线构造全等三角形",
+            "延长平行线截取相等线段",
+            "延长垂线构造等腰三角形"
+          ],
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作平行线法",
+          "description": "通过作平行线转移角或边",
+          "application": "证线段相等、角相等、成比例",
+          "example": {
+            "content": "在△ABC中，D在BC上，∠BAD = ∠DAC，求证：BD/DC = AB/AC",
+            "diagram": "过点D作DE∥AB，交AC于E",
+            "solution": "由平行线分线段成比例得 BD/DC = AE/EC，再证AE = EC",
+            "key": "有角平分线，作平行线得等腰三角形"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作高法",
+          "description": "作垂线，构造直角三角形",
+          "application": "涉及高、面积、锐角三角函数",
+          "example": {
+            "content": "在△ABC中，AB = AC，AD为高，求证：BD = CD",
+            "diagram": "直接作高AD",
+            "solution": "由等腰三角形三线合一直接得证",
+            "key": "等腰三角形，作高得三线合一"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作中位线法",
+          "description": "构造三角形或梯形的中位线",
+          "application": "涉及中点、边的中点连线",
+          "example": {
+            "content": "在四边形ABCD中，E、F、G、H分别为AB、BC、CD、DA的中点，求证：EG = HF",
+            "diagram": "连接AC，由E、H为AB、DA中点得EH∥BD∥FG",
+            "solution": "由中位线性质得EH = FH = ½BD",
+            "key": "有多个中点，考虑中位线"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作角平分线法",
+          "description": "利用角平分线的性质构造辅助线",
+          "application": "角平分线上的点到两边距离相等",
+          "example": {
+            "content": "在△ABC中，∠B = 2∠C，AD为角平分线，求证：AB + BD = AC",
+            "diagram": "在AB上截取BE = BD，连接ED",
+            "solution": "构造等腰三角形，利用角度关系证明",
+            "key": "角平分线 + 等腰，构造等腰三角形"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        },
+        {
+          "name": "旋转法",
+          "description": "将图形绕某点旋转，构造全等或相似",
+          "application": "等边三角形、等腰直角三角形、特殊角",
+          "example": {
+            "content": "在正方形ABCD中，E、F分别为BC、CD上的点，∠EAF = 45°，求证：AE = AF",
+            "diagram": "将△ADF绕A点旋转90°",
+            "solution": "旋转后△ADF'与△ABE重合，证AE = AF",
+            "key": "正方形，等线段，旋转90°"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        }
+      ]
+    },
+    {
+      "name": "四边形辅助线",
+      "order": 2,
+      "techniques": [
+        {
+          "name": "连接对角线",
+          "description": "四边形问题常连接对角线",
+          "application": "证线段相等、角相等、四边形为特殊四边形",
+          "example": {
+            "content": "在平行四边形ABCD中，AE⊥BD于E，CF⊥BD于F，求证：AE = CF",
+            "diagram": "连接AC交BD于O",
+            "solution": "由平行四边形性质得AO = CO，再由面积相等得AE = CF",
+            "key": "平行四边形，对角线互相平分"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作对角线平行线",
+          "description": "构造平行四边形",
+          "application": "证线段平行、相等",
+          "example": {
+            "content": "在梯形ABCD中，AB∥CD，E为腰AD中点，求证：S△ABE = S△DCE",
+            "diagram": "过E作AB的平行线，交BC于F",
+            "solution": "由平行线构造平行四边形，证两个三角形等底等高",
+            "key": "梯形中点，作平行线构造平行四边形"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "延长腰交点",
+          "description": "梯形中延长腰相交",
+          "application": "将梯形问题转化为三角形问题",
+          "example": {
+            "content": "在梯形ABCD中，AB∥CD，AB = 2CD，∠D = 45°，求∠C",
+            "diagram": "延长AD、BC交于点E",
+            "solution": "由AB = 2CD，构造相似三角形，求角度",
+            "key": "梯形腰延长，构造直角三角形"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        },
+        {
+          "name": "对角线分割法",
+          "description": "利用对角线将四边形分成两个三角形",
+          "application": "求面积、证成比例",
+          "example": {
+            "content": "在平行四边形ABCD中，对角线交于O，E在AB上，求证：S△AOE/S△COD = OE²/CD²",
+            "diagram": "连接AC、BD交于O",
+            "solution": "利用对角线分割平行四边形为全等三角形",
+            "key": "平行四边形对角线交点平分对角线"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        }
+      ]
+    },
+    {
+      "name": "圆辅助线",
+      "order": 3,
+      "techniques": [
+        {
+          "name": "作半径/直径",
+          "description": "圆中常连接半径或作直径",
+          "application": "证垂直、证切线、构造直角三角形",
+          "example": {
+            "content": "AB为圆O的直径，C在圆上，∠B = 30°，求∠A",
+            "diagram": "连接OC",
+            "solution": "OC = OB，∠A = ∠ACO = 30°",
+            "key": "直径所对圆周角为90°"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作切线",
+          "description": "过切点作半径的垂线",
+          "application": "证切线、计算长度",
+          "example": {
+            "content": "AB为圆O的切线，A为切点，AC为弦，∠BAC = 30°，求∠B",
+            "diagram": "过A作半径OA",
+            "solution": "OA⊥AB，∠BAO = 60°，在直角三角形中求∠B",
+            "key": "切线垂直于过切点的半径"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作弦心距",
+          "description": "圆心到弦的垂线",
+          "application": "计算弦长、证线段相等",
+          "example": {
+            "content": "圆O半径为5，弦AB = 8，求圆心到AB的距离",
+            "diagram": "过O作OD⊥AB于D",
+            "solution": "在直角三角形OAD中，OD = √(5² - 4²) = 3",
+            "key": "弦心距平分弦"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        },
+        {
+          "name": "作公共弦",
+          "description": "两圆相交，连接交点",
+          "application": "两圆相交问题",
+          "example": {
+            "content": "两圆交于A、B，过A作两圆切线分别交圆于C、D，求证：AB平分∠CAD",
+            "diagram": "连接AB为公共弦",
+            "solution": "利用弦切角定理证明",
+            "key": "公共弦是沟通两圆的桥梁"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        },
+        {
+          "name": "作内切圆/外接圆辅助线",
+          "description": "三角形内切圆或外接圆辅助线",
+          "application": "切点三角形、内心、外心性质",
+          "example": {
+            "content": "△ABC内切圆切AB于D，BC于E，CA于F，求证：AD + BE + CF = ½(AB + BC + CA)",
+            "diagram": "连接内心与切点",
+            "solution": "由切线长定理，AD = AF，BD = BE，CD = CF",
+            "key": "内心到三边距离相等"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        },
+        {
+          "name": "作圆周角相等",
+          "description": "利用同弧或等弧所对的圆周角相等",
+          "application": "找等角、构造相似三角形",
+          "example": {
+            "content": "圆中，AB = CD，求证：AC = BD",
+            "diagram": "由AB = CD得弧AB = 弧CD",
+            "solution": "同弧所对圆周角相等，证△ABC ≅ △DCB",
+            "key": "等弧对等弦、等圆周角"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        }
+      ]
+    },
+    {
+      "name": "特殊图形辅助线",
+      "order": 4,
+      "techniques": [
+        {
+          "name": "等边三角形辅助线",
+          "description": "构造60°角和等边三角形",
+          "application": "涉及60°角、正三角形",
+          "example": {
+            "content": "在等边三角形ABC中，D在BC上，∠BAD = 30°，求∠ADC的度数",
+            "diagram": "在BC上取点E，使AE = AB",
+            "solution": "构造等边三角形，利用角度关系求解",
+            "key": "等边三角形，旋转60°"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        },
+        {
+          "name": "正方形辅助线",
+          "description": "利用90°角和等边构造辅助线",
+          "application": "正方形、对角线性质",
+          "example": {
+            "content": "正方形ABCD中，E在BC上，∠DAE = 30°，求∠AEC",
+            "diagram": "在CD上取点F，使DF = DE",
+            "solution": "构造等腰直角三角形，利用角度关系求解",
+            "key": "正方形对角线平分45°角"
+          },
+          "tags": ["技巧进阶", "竞赛入门"]
+        },
+        {
+          "name": "直角三角形辅助线",
+          "description": "构造斜边上的中线、射影定理",
+          "application": "直角三角形斜边相关问题",
+          "example": {
+            "content": "直角三角形ABC中，∠C = 90°，AC = 3，BC = 4，AD为角平分线，求CD",
+            "diagram": "过D作斜边AB的垂线",
+            "solution": "由角平分线性质和射影定理求解",
+            "key": "直角三角形斜边中线等于斜边一半"
+          },
+          "tags": ["基础技巧", "高频使用"]
+        }
+      ]
+    }
+  ]
+}

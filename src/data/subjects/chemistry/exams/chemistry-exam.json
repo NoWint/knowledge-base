@@ -1,0 +1,300 @@
+{
+  "examCategories": [
+    {
+      "category": "物质构成奥秘",
+      "questions": [
+        {
+          "id": "chem-exam-1",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列关于分子和原子的说法正确的是：",
+          "options": [
+            "A. 分子大，原子小",
+            "B. 分子能保持物质的化学性质，原子不能",
+            "C. 在化学变化中，分子可分，原子不可分",
+            "D. 分子是运动的，原子是静止的"
+          ],
+          "answer": "C",
+          "explanation": "分子和原子都是不断运动的；在化学变化中，分子可分而原子不可分，原子是化学变化中的最小粒子；分子是保持物质化学性质的最小粒子，原子也能保持物质的化学性质（如金属原子）。",
+          "knowledgePoints": ["分子和原子的区别与联系"]
+        },
+        {
+          "id": "chem-exam-2",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列物质由原子直接构成的是：",
+          "options": ["A. 水", "B. 氧气", "C. 铁", "D. 二氧化碳"],
+          "answer": "C",
+          "explanation": "铁是金属，由铁原子直接构成；水、氧气、二氧化碳由分子构成。",
+          "knowledgePoints": ["物质的构成"]
+        },
+        {
+          "id": "chem-exam-3",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "在原子中，质子数等于：",
+          "options": ["A. 核外电子数", "B. 中子数", "C. 相对原子质量", "D. 核电荷数和中子数之和"],
+          "answer": "A",
+          "explanation": "在原子里，核电荷数 = 质子数 = 核外电子数。",
+          "knowledgePoints": ["原子的结构"]
+        }
+      ]
+    },
+    {
+      "category": "空气与氧气",
+      "questions": [
+        {
+          "id": "chem-exam-4",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "空气中体积分数最大的气体是：",
+          "options": ["A. 氧气", "B. 氮气", "C. 二氧化碳", "D. 稀有气体"],
+          "answer": "B",
+          "explanation": "空气中氮气约占78%，氧气约占21%，稀有气体约0.94%，二氧化碳约0.03%。",
+          "knowledgePoints": ["空气的组成"]
+        },
+        {
+          "id": "chem-exam-5",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "测定空气中氧气含量的实验中所用的物质是：",
+          "options": ["A. 铁", "B. 碳", "C. 硫", "D. 红磷"],
+          "answer": "D",
+          "explanation": "红磷燃烧消耗氧气，生成五氧化二磷固体，使容器内气压减小，水进入容器。不能用铁（难反应）、碳、硫（燃烧生成气体）。",
+          "knowledgePoints": ["空气中氧气含量的测定"]
+        },
+        {
+          "id": "chem-exam-6",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "下列物质在氧气中燃烧，产生刺激性气味气体的是：",
+          "options": ["A. 碳", "B. 硫", "C. 磷", "D. 铁"],
+          "answer": "B",
+          "explanation": "硫在氧气中燃烧产生二氧化硫，有刺激性气味；碳燃烧产生二氧化碳（无味）；磷燃烧产生五氧化二磷（白烟）；铁燃烧产生四氧化三铁（黑色固体）。",
+          "knowledgePoints": ["氧气性质"]
+        }
+      ]
+    },
+    {
+      "category": "水与溶液",
+      "questions": [
+        {
+          "id": "chem-exam-7",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "电解水时，正极产生的气体是：",
+          "options": ["A. 氢气", "B. 氧气", "C. 水蒸气", "D. 氮气"],
+          "answer": "B",
+          "explanation": "电解水时，正极产生氧气（阳极），负极产生氢气（阴极），体积比为1:2。",
+          "knowledgePoints": ["电解水实验"]
+        },
+        {
+          "id": "chem-exam-8",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "下列净水方法中，净化程度最高的是：",
+          "options": ["A. 沉降", "B. 过滤", "C. 蒸馏", "D. 吸附"],
+          "answer": "C",
+          "explanation": "蒸馏可以除去所有杂质，净化程度最高。",
+          "knowledgePoints": ["水的净化"]
+        },
+        {
+          "id": "chem-exam-9",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列物质属于溶液的是：",
+          "options": ["A. 泥水", "B. 牛奶", "C. 生理盐水", "D. 液氧"],
+          "answer": "C",
+          "explanation": "溶液是均一、稳定的混合物。生理盐水是氯化钠的水溶液；泥水是悬浊液；牛奶是乳浊液；液氧是纯净物。",
+          "knowledgePoints": ["溶液的概念"]
+        }
+      ]
+    },
+    {
+      "category": "化学方程式",
+      "questions": [
+        {
+          "id": "chem-exam-10",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "质量守恒定律揭示了化学反应中：",
+          "options": [
+            "A. 反应物质量总和等于生成物质量总和",
+            "B. 反应物和生成物的原子个数相等",
+            "C. 反应物和生成物的质量相等",
+            "D. 反应物和生成物的分子个数相等"
+          ],
+          "answer": "A",
+          "explanation": "质量守恒定律：参加化学反应的各物质的质量总和，等于反应后生成的各物质的质量总和。",
+          "knowledgePoints": ["质量守恒定律"]
+        },
+        {
+          "id": "chem-exam-11",
+          "type": "填空题",
+          "difficulty": "基础",
+          "question": "配平化学方程式：Fe + O₂ ==点燃== Fe₃O₄",
+          "answer": "3Fe + 2O₂ ==点燃== Fe₃O₄",
+          "explanation": "用最小公倍数法配平： Fe：3，O：4。",
+          "knowledgePoints": ["化学方程式的配平"]
+        },
+        {
+          "id": "chem-exam-12",
+          "type": "计算题",
+          "difficulty": "中等",
+          "question": "加热分解12.25g氯酸钾，可得到氧气多少克？",
+          "answer": "4.8g",
+          "solution": "设生成氧气质量为x。2KClO₃ ==MnO₂/加热== 2KCl + 3O₂↑，245/12.25 = 96/x，x = 4.8g。",
+          "knowledgePoints": ["化学方程式计算"]
+        }
+      ]
+    },
+    {
+      "category": "碳和碳的氧化物",
+      "questions": [
+        {
+          "id": "chem-exam-13",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列物质中，硬度最大的是：",
+          "options": ["A. 石墨", "B. 金刚石", "C. C60", "D. 活性炭"],
+          "answer": "B",
+          "explanation": "金刚石是天然存在的最硬物质；石墨很软；C60是分子晶体；活性炭有吸附性。",
+          "knowledgePoints": ["碳的单质性质"]
+        },
+        {
+          "id": "chem-exam-14",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "CO和CO₂的化学性质不同的主要原因是：",
+          "options": ["A. 分子构成不同", "B. 密度不同", "C. 溶解性不同", "D. 碳的含量不同"],
+          "answer": "A",
+          "explanation": "CO和CO₂的分子构成不同：CO由一氧化碳分子构成，CO₂由二氧化碳分子构成，不同的分子构成决定不同的化学性质。",
+          "knowledgePoints": ["分子构成与性质关系"]
+        },
+        {
+          "id": "chem-exam-15",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "能用澄清石灰水检验的气体是：",
+          "options": ["A. 氧气", "B. 氮气", "C. 二氧化碳", "D. 氢气"],
+          "answer": "C",
+          "explanation": "CO₂能使澄清石灰水变浑浊，反应方程式：Ca(OH)₂ + CO₂ = CaCO₃↓ + H₂O。",
+          "knowledgePoints": ["二氧化碳的检验"]
+        }
+      ]
+    },
+    {
+      "category": "金属与金属材料",
+      "questions": [
+        {
+          "id": "chem-exam-16",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列金属中，活动性最强的是：",
+          "options": ["A. Fe", "B. Zn", "C. Mg", "D. Ag"],
+          "answer": "C",
+          "explanation": "金属活动性顺序：K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au，Mg的活动性最强。",
+          "knowledgePoints": ["金属活动性顺序"]
+        },
+        {
+          "id": "chem-exam-17",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "将铁片浸入硫酸铜溶液中，观察到的现象是：",
+          "options": [
+            "A. 铁片表面产生红色物质，溶液由蓝色变为浅绿色",
+            "B. 铁片表面产生气泡，溶液变为绿色",
+            "C. 铁片逐渐溶解，溶液变为蓝色",
+            "D. 没有明显现象"
+          ],
+          "answer": "A",
+          "explanation": "Fe + CuSO₄ = FeSO₄ + Cu，铁片表面覆盖一层红色铜，溶液由蓝色变为浅绿色（亚铁离子）。",
+          "knowledgePoints": ["金属与盐反应"]
+        }
+      ]
+    },
+    {
+      "category": "酸和碱",
+      "questions": [
+        {
+          "id": "chem-exam-18",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列物质中，能使紫色石蕊试液变红的是：",
+          "options": ["A. 蒸馏水", "B. 稀盐酸", "C. 氢氧化钠溶液", "D. 氯化钠溶液"],
+          "answer": "B",
+          "explanation": "酸性溶液能使紫色石蕊变红；稀盐酸是酸性溶液；氢氧化钠是碱性溶液，能使石蕊变蓝。",
+          "knowledgePoints": ["酸碱指示剂"]
+        },
+        {
+          "id": "chem-exam-19",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "下列物质露置在空气中，质量会增加的是：",
+          "options": ["A. 浓盐酸", "B. 浓硫酸", "C. 氢氧化钠", "D. 氯化钠"],
+          "answer": "C",
+          "explanation": "浓硫酸有吸水性，露置在空气中质量增加；浓盐酸有挥发性，质量减小；氢氧化钠潮解并与CO₂反应，质量增加；氯化钠质量不变。",
+          "knowledgePoints": ["酸碱的性质"]
+        },
+        {
+          "id": "chem-exam-20",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "酸和碱发生中和反应的实质是：",
+          "options": ["A. 酸碱反应生成盐和水", "B. H⁺和OH⁻结合生成水", "C. 金属离子和酸根离子结合", "D. 酸和碱完全反应"],
+          "answer": "B",
+          "explanation": "中和反应的实质是酸中的H⁺和碱中的OH⁻结合生成水。",
+          "knowledgePoints": ["中和反应"]
+        }
+      ]
+    },
+    {
+      "category": "溶液",
+      "questions": [
+        {
+          "id": "chem-exam-21",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "配制100g 10%的氯化钠溶液，所需氯化钠的质量为：",
+          "options": ["A. 5g", "B. 10g", "C. 15g", "D. 20g"],
+          "answer": "B",
+          "explanation": "溶质质量 = 溶液质量 × 溶质质量分数 = 100g × 10% = 10g。",
+          "knowledgePoints": ["溶质质量分数计算"]
+        },
+        {
+          "id": "chem-exam-22",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "下列溶液稀释时，需要加入水的是：",
+          "options": ["A. 浓硫酸", "B. 浓盐酸", "C. 氢氧化钠溶液", "D. 碳酸钠溶液"],
+          "answer": "A",
+          "explanation": "浓硫酸稀释时，应将浓硫酸沿器壁慢慢注入水中，并不断搅拌，防止溅出。切不可将水倒入浓硫酸。",
+          "knowledgePoints": ["溶液稀释"]
+        }
+      ]
+    },
+    {
+      "category": "化学计算",
+      "questions": [
+        {
+          "id": "chem-exam-23",
+          "type": "计算题",
+          "difficulty": "中等",
+          "question": "多少克碳完全燃烧能得到44g CO₂？",
+          "answer": "12g",
+          "solution": "C + O₂ ==点燃== CO₂，12/44 = x/44，x = 12g。",
+          "knowledgePoints": ["化学方程式计算"]
+        },
+        {
+          "id": "chem-exam-24",
+          "type": "计算题",
+          "difficulty": "中等",
+          "question": "200g稀硫酸与足量锌反应，生成0.4g氢气，求稀硫酸中溶质的质量分数。",
+          "answer": "9.8%",
+          "solution": "Zn + H₂SO₄ = ZnSO₄ + H₂↑，设H₂SO₄质量为x，98/x = 2/0.4，x = 19.6g，质量分数 = 19.6/200 × 100% = 9.8%。",
+          "knowledgePoints": ["化学方程式计算", "溶质质量分数"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "subject": "数学",
+  "version": "北师大版",
+  "gradeLevels": ["七年级上", "七年级下", "八年级上", "八年级下", "九年级上", "九年级下"],
+  "chapters": [
+    {
+      "grade": "七年级上",
+      "order": 1,
+      "id": "math-7s-1",
+      "name": "丰富的图形世界",
+      "subChapters": [
+        { "id": "math-7s-1-1", "name": "生活中的立体图形", "order": 1 },
+        { "id": "math-7s-1-2", "name": "展开与折叠", "order": 2 },
+        { "id": "math-7s-1-3", "name": "截一个几何体", "order": 3 },
+        { "id": "math-7s-1-4", "name": "从不同方向看", "order": 4 },
+        { "id": "math-7s-1-5", "name": "几何体的表面积与体积", "order": 5 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 2,
+      "id": "math-7s-2",
+      "name": "有理数及其运算",
+      "subChapters": [
+        { "id": "math-7s-2-1", "name": "正数和负数", "order": 1 },
+        { "id": "math-7s-2-2", "name": "有理数", "order": 2 },
+        { "id": "math-7s-2-3", "name": "数轴", "order": 3 },
+        { "id": "math-7s-2-4", "name": "绝对值", "order": 4 },
+        { "id": "math-7s-2-5", "name": "有理数的加法", "order": 5 },
+        { "id": "math-7s-2-6", "name": "有理数的减法", "order": 6 },
+        { "id": "math-7s-2-7", "name": "有理数的乘法", "order": 7 },
+        { "id": "math-7s-2-8", "name": "有理数的除法", "order": 8 },
+        { "id": "math-7s-2-9", "name": "有理数的乘方", "order": 9 },
+        { "id": "math-7s-2-10", "name": "科学计数法", "order": 10 },
+        { "id": "math-7s-2-11", "name": "有理数的混合运算", "order": 11 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 3,
+      "id": "math-7s-3",
+      "name": "整式及其加减",
+      "subChapters": [
+        { "id": "math-7s-3-1", "name": "用字母表示数", "order": 1 },
+        { "id": "math-7s-3-2", "name": "代数式", "order": 2 },
+        { "id": "math-7s-3-3", "name": "整式", "order": 3 },
+        { "id": "math-7s-3-4", "name": "合并同类项", "order": 4 },
+        { "id": "math-7s-3-5", "name": "整式的加减", "order": 5 },
+        { "id": "math-7s-3-6", "name": "探索与表达规律", "order": 6 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 4,
+      "id": "math-7s-4",
+      "name": "一元一次方程",
+      "subChapters": [
+        { "id": "math-7s-4-1", "name": "认识方程", "order": 1 },
+        { "id": "math-7s-4-2", "name": "解一元一次方程（一）", "order": 2 },
+        { "id": "math-7s-4-3", "name": "解一元一次方程（二）", "order": 3 },
+        { "id": "math-7s-4-4", "name": "一元一次方程的应用", "order": 4 },
+        { "id": "math-7s-4-5", "name": "方程的拓展与实践", "order": 5 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 5,
+      "id": "math-7s-5",
+      "name": "数据的收集与整理",
+      "subChapters": [
+        { "id": "math-7s-5-1", "name": "数据的收集", "order": 1 },
+        { "id": "math-7s-5-2", "name": "数据的整理", "order": 2 },
+        { "id": "math-7s-5-3", "name": "统计图的选择", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 6,
+      "id": "math-7x-1",
+      "name": "整式的乘除",
+      "subChapters": [
+        { "id": "math-7x-1-1", "name": "同底数幂的乘法", "order": 1 },
+        { "id": "math-7x-1-2", "name": "幂的乘方", "order": 2 },
+        { "id": "math-7x-1-3", "name": "积的乘方", "order": 3 },
+        { "id": "math-7x-1-4", "name": "整式的乘法", "order": 4 },
+        { "id": "math-7x-1-5", "name": "平方差公式", "order": 5 },
+        { "id": "math-7x-1-6", "name": "完全平方公式", "order": 6 },
+        { "id": "math-7x-1-7", "name": "整式的除法", "order": 7 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 7,
+      "id": "math-7x-2",
+      "name": "相交线与平行线",
+      "subChapters": [
+        { "id": "math-7x-2-1", "name": "两条直线的位置关系", "order": 1 },
+        { "id": "math-7x-2-2", "name": "探索直线平行的条件", "order": 2 },
+        { "id": "math-7x-2-3", "name": "平行线的性质", "order": 3 },
+        { "id": "math-7x-2-4", "name": "认识三角形", "order": 4 },
+        { "id": "math-7x-2-5", "name": "三角形的证明", "order": 5 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 8,
+      "id": "math-7x-3",
+      "name": "变量之间的关系",
+      "subChapters": [
+        { "id": "math-7x-3-1", "name": "函数的概念", "order": 1 },
+        { "id": "math-7x-3-2", "name": "表示函数关系的方法", "order": 2 },
+        { "id": "math-7x-3-3", "name": "函数的应用", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 9,
+      "id": "math-7x-4",
+      "name": "三角形",
+      "subChapters": [
+        { "id": "math-7x-4-1", "name": "认识三角形", "order": 1 },
+        { "id": "math-7x-4-2", "name": "全等三角形", "order": 2 },
+        { "id": "math-7x-4-3", "name": "轴对称图形", "order": 3 },
+        { "id": "math-7x-4-4", "name": "角的平分线的性质", "order": 4 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 10,
+      "id": "math-7x-5",
+      "name": "生活中的轴对称",
+      "subChapters": [
+        { "id": "math-7x-5-1", "name": "轴对称现象", "order": 1 },
+        { "id": "math-7x-5-2", "name": "简单的轴对称图形", "order": 2 },
+        { "id": "math-7x-5-3", "name": "利用轴对称进行设计", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 11,
+      "id": "math-8s-1",
+      "name": "勾股定理",
+      "subChapters": [
+        { "id": "math-8s-1-1", "name": "探索勾股定理", "order": 1 },
+        { "id": "math-8s-1-2", "name": "勾股定理的证明", "order": 2 },
+        { "id": "math-8s-1-3", "name": "勾股定理的应用", "order": 3 },
+        { "id": "math-8s-1-4", "name": "勾股定理的逆定理", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 12,
+      "id": "math-8s-2",
+      "name": "实数",
+      "subChapters": [
+        { "id": "math-8s-2-1", "name": "认识无理数", "order": 1 },
+        { "id": "math-8s-2-2", "name": "平方根", "order": 2 },
+        { "id": "math-8s-2-3", "name": "立方根", "order": 3 },
+        { "id": "math-8s-2-4", "name": "估算", "order": 4 },
+        { "id": "math-8s-2-5", "name": "二次根式", "order": 5 },
+        { "id": "math-8s-2-6", "name": "二次根式的乘除", "order": 6 },
+        { "id": "math-8s-2-7", "name": "二次根式的加减", "order": 7 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 13,
+      "id": "math-8s-3",
+      "name": "位置与坐标",
+      "subChapters": [
+        { "id": "math-8s-3-1", "name": "确定位置", "order": 1 },
+        { "id": "math-8s-3-2", "name": "平面直角坐标系", "order": 2 },
+        { "id": "math-8s-3-3", "name": "坐标与图形的位置", "order": 3 },
+        { "id": "math-8s-3-4", "name": "轴对称与坐标变化", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 14,
+      "id": "math-8s-4",
+      "name": "一次函数",
+      "subChapters": [
+        { "id": "math-8s-4-1", "name": "函数", "order": 1 },
+        { "id": "math-8s-4-2", "name": "一次函数", "order": 2 },
+        { "id": "math-8s-4-3", "name": "一次函数的图像", "order": 3 },
+        { "id": "math-8s-4-4", "name": "一次函数的应用", "order": 4 },
+        { "id": "math-8s-4-5", "name": "二元一次方程与一次函数", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 15,
+      "id": "math-8s-5",
+      "name": "二元一次方程组",
+      "subChapters": [
+        { "id": "math-8s-5-1", "name": "认识二元一次方程组", "order": 1 },
+        { "id": "math-8s-5-2", "name": "代入消元法", "order": 2 },
+        { "id": "math-8s-5-3", "name": "加减消元法", "order": 3 },
+        { "id": "math-8s-5-4", "name": "二元一次方程组的应用", "order": 4 },
+        { "id": "math-8s-5-5", "name": "三元一次方程组", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 16,
+      "id": "math-8s-6",
+      "name": "数据的分析",
+      "subChapters": [
+        { "id": "math-8s-6-1", "name": "平均数", "order": 1 },
+        { "id": "math-8s-6-2", "name": "中位数与众数", "order": 2 },
+        { "id": "math-8s-6-3", "name": "方差", "order": 3 },
+        { "id": "math-8s-6-4", "name": "数据的分析应用", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 17,
+      "id": "math-8x-1",
+      "name": "三角形的证明",
+      "subChapters": [
+        { "id": "math-8x-1-1", "name": "等腰三角形", "order": 1 },
+        { "id": "math-8x-1-2", "name": "直角三角形", "order": 2 },
+        { "id": "math-8x-1-3", "name": "垂直平分线", "order": 3 },
+        { "id": "math-8x-1-4", "name": "角平分线", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 18,
+      "id": "math-8x-2",
+      "name": "一元一次不等式和一元一次不等式组",
+      "subChapters": [
+        { "id": "math-8x-2-1", "name": "认识不等式", "order": 1 },
+        { "id": "math-8x-2-2", "name": "不等式的基本性质", "order": 2 },
+        { "id": "math-8x-2-3", "name": "解一元一次不等式", "order": 3 },
+        { "id": "math-8x-2-4", "name": "一元一次不等式的应用", "order": 4 },
+        { "id": "math-8x-2-5", "name": "一元一次不等式组", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 19,
+      "id": "math-8x-3",
+      "name": "因式分解",
+      "subChapters": [
+        { "id": "math-8x-3-1", "name": "认识因式分解", "order": 1 },
+        { "id": "math-8x-3-2", "name": "提取公因式法", "order": 2 },
+        { "id": "math-8x-3-3", "name": "运用公式法", "order": 3 },
+        { "id": "math-8x-3-4", "name": "十字相乘法", "order": 4 },
+        { "id": "math-8x-3-5", "name": "分组分解法", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 20,
+      "id": "math-8x-4",
+      "name": "分式与分式方程",
+      "subChapters": [
+        { "id": "math-8x-4-1", "name": "认识分式", "order": 1 },
+        { "id": "math-8x-4-2", "name": "分式的乘除", "order": 2 },
+        { "id": "math-8x-4-3", "name": "分式的加减", "order": 3 },
+        { "id": "math-8x-4-4", "name": "分式方程", "order": 4 },
+        { "id": "math-8x-4-5", "name": "分式方程的应用", "order": 5 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 21,
+      "id": "math-8x-5",
+      "name": "平行四边形",
+      "subChapters": [
+        { "id": "math-8x-5-1", "name": "平行四边形的性质", "order": 1 },
+        { "id": "math-8x-5-2", "name": "平行四边形的判定", "order": 2 },
+        { "id": "math-8x-5-3", "name": "三角形的中位线", "order": 3 },
+        { "id": "math-8x-5-4", "name": "多边形的内角和与外角和", "order": 4 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 22,
+      "id": "math-9s-1",
+      "name": "特殊平行四边形",
+      "subChapters": [
+        { "id": "math-9s-1-1", "name": "菱形", "order": 1 },
+        { "id": "math-9s-1-2", "name": "矩形", "order": 2 },
+        { "id": "math-9s-1-3", "name": "正方形", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 23,
+      "id": "math-9s-2",
+      "name": "一元二次方程",
+      "subChapters": [
+        { "id": "math-9s-2-1", "name": "认识一元二次方程", "order": 1 },
+        { "id": "math-9s-2-2", "name": "配方法", "order": 2 },
+        { "id": "math-9s-2-3", "name": "公式法", "order": 3 },
+        { "id": "math-9s-2-4", "name": "因式分解法", "order": 4 },
+        { "id": "math-9s-2-5", "name": "根与系数的关系", "order": 5 },
+        { "id": "math-9s-2-6", "name": "一元二次方程的应用", "order": 6 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 24,
+      "id": "math-9s-3",
+      "name": "相似图形",
+      "subChapters": [
+        { "id": "math-9s-3-1", "name": "相似的图形", "order": 1 },
+        { "id": "math-9s-3-2", "name": "比例线段", "order": 2 },
+        { "id": "math-9s-3-3", "name": "相似三角形的判定", "order": 3 },
+        { "id": "math-9s-3-4", "name": "相似三角形的性质", "order": 4 },
+        { "id": "math-9s-3-5", "name": "相似三角形的应用", "order": 5 },
+        { "id": "math-9s-3-6", "name": "位似图形", "order": 6 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 25,
+      "id": "math-9s-4",
+      "name": "投影与视图",
+      "subChapters": [
+        { "id": "math-9s-4-1", "name": "投影", "order": 1 },
+        { "id": "math-9s-4-2", "name": "视图", "order": 2 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 26,
+      "id": "math-9s-5",
+      "name": "反比例函数",
+      "subChapters": [
+        { "id": "math-9s-5-1", "name": "认识反比例函数", "order": 1 },
+        { "id": "math-9s-5-2", "name": "反比例函数的图像与性质", "order": 2 },
+        { "id": "math-9s-5-3", "name": "反比例函数的应用", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 27,
+      "id": "math-9s-6",
+      "name": "概率的进一步认识",
+      "subChapters": [
+        { "id": "math-9s-6-1", "name": "用列举法求概率", "order": 1 },
+        { "id": "math-9s-6-2", "name": "用树状图法求概率", "order": 2 },
+        { "id": "math-9s-6-3", "name": "生活中的概率", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "order": 28,
+      "id": "math-9x-1",
+      "name": "直角三角形的边角关系",
+      "subChapters": [
+        { "id": "math-9x-1-1", "name": "锐角三角函数", "order": 1 },
+        { "id": "math-9x-1-2", "name": "30°,45°,60°角的三角函数值", "order": 2 },
+        { "id": "math-9x-1-3", "name": "解直角三角形", "order": 3 },
+        { "id": "math-9x-1-4", "name": "三角函数的应用", "order": 4 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "order": 29,
+      "id": "math-9x-2",
+      "name": "二次函数",
+      "subChapters": [
+        { "id": "math-9x-2-1", "name": "认识二次函数", "order": 1 },
+        { "id": "math-9x-2-2", "name": "二次函数的图像与性质", "order": 2 },
+        { "id": "math-9x-2-3", "name": "二次函数 y=ax²+bx+c 的图像", "order": 3 },
+        { "id": "math-9x-2-4", "name": "确定二次函数的表达式", "order": 4 },
+        { "id": "math-9x-2-5", "name": "二次函数的应用", "order": 5 },
+        { "id": "math-9x-2-6", "name": "二次函数与一元二次方程", "order": 6 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "order": 30,
+      "id": "math-9x-3",
+      "name": "圆",
+      "subChapters": [
+        { "id": "math-9x-3-1", "name": "圆的认识", "order": 1 },
+        { "id": "math-9x-3-2", "name": "垂直于弦的直径", "order": 2 },
+        { "id": "math-9x-3-3", "name": "弧、弦、圆心角", "order": 3 },
+        { "id": "math-9x-3-4", "name": "圆周角", "order": 4 },
+        { "id": "math-9x-3-5", "name": "直线与圆的位置关系", "order": 5 },
+        { "id": "math-9x-3-6", "name": "切线的性质与判定", "order": 6 },
+        { "id": "math-9x-3-7", "name": "切线长定理", "order": 7 },
+        { "id": "math-9x-3-8", "name": "正多边形与圆", "order": 8 },
+        { "id": "math-9x-3-9", "name": "弧长", "order": 9 },
+        { "id": "math-9x-3-10", "name": "扇形面积", "order": 10 },
+        { "id": "math-9x-3-11", "name": "圆锥的侧面积", "order": 11 }
+      ]
+    }
+  ]
+}

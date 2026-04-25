@@ -1,0 +1,215 @@
+{
+  "subject": "道德与法治",
+  "version": "人教版统编本",
+  "gradeLevels": ["七年级上", "七年级下", "八年级上", "八年级下", "九年级上", "九年级下"],
+  "chapters": [
+    {
+      "grade": "七年级上",
+      "order": 1,
+      "id": "daofa-7s-1",
+      "name": "成长的节拍",
+      "theme": "心理成长",
+      "subChapters": [
+        { "id": "daofa-7s-1-1", "name": "中学时代", "order": 1 },
+        { "id": "daofa-7s-1-2", "name": "学习新天地", "order": 2 },
+        { "id": "daofa-7s-1-3", "name": "发现自己", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 2,
+      "id": "daofa-7s-2",
+      "name": "友谊的天空",
+      "theme": "人际交往",
+      "subChapters": [
+        { "id": "daofa-7s-2-1", "name": "和朋友在一起", "order": 1 },
+        { "id": "daofa-7s-2-2", "name": "让友谊之树常青", "order": 2 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 3,
+      "id": "daofa-7s-3",
+      "name": "师长情谊",
+      "theme": "尊师爱亲",
+      "subChapters": [
+        { "id": "daofa-7s-3-1", "name": "师生之间", "order": 1 },
+        { "id": "daofa-7s-3-2", "name": "孝亲敬长", "order": 2 }
+      ]
+    },
+    {
+      "grade": "七年级上",
+      "order": 4,
+      "id": "daofa-7s-4",
+      "name": "生命情绪",
+      "theme": "珍爱生命",
+      "subChapters": [
+        { "id": "daofa-7s-4-1", "name": "生命可以永恒吗", "order": 1 },
+        { "id": "daofa-7s-4-2", "name": "珍视生命", "order": 2 },
+        { "id": "daofa-7s-4-3", "name": "绽放生命之花", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 5,
+      "id": "daofa-7x-1",
+      "name": "青春时光",
+      "theme": "青春成长",
+      "subChapters": [
+        { "id": "daofa-7x-1-1", "name": "青春的邀约", "order": 1 },
+        { "id": "daofa-7x-1-2", "name": "青春的心弦", "order": 2 },
+        { "id": "daofa-7x-1-3", "name": "青春的证明", "order": 3 }
+      ]
+    },
+    {
+      "grade": "七年级下",
+      "order": 6,
+      "id": "daofa-7x-2",
+      "name": "做情绪情感的主人",
+      "theme": "情绪管理",
+      "subChapters": [
+        { "id": "daofa-7x-2-1", "name": "情绪的管理", "order": 1 },
+        { "id": "daofa-7x-2-2", "name": "情感的天空", "order": 2 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 1,
+      "id": "daofa-8s-1",
+      "name": "走进社会生活",
+      "theme": "社会适应",
+      "subChapters": [
+        { "id": "daofa-8s-1-1", "name": "我与社会", "order": 1 },
+        { "id": "daofa-8s-1-2", "name": "网络生活新空间", "order": 2 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 2,
+      "id": "daofa-8s-2",
+      "name": "遵守社会规则",
+      "theme": "社会规范",
+      "subChapters": [
+        { "id": "daofa-8s-2-1", "name": "社会生活离不开规则", "order": 1 },
+        { "id": "daofa-8s-2-2", "name": "遵守规则", "order": 2 },
+        { "id": "daofa-8s-2-3", "name": "维护规则", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 3,
+      "id": "daofa-8s-3",
+      "name": "承担社会责任",
+      "theme": "责任担当",
+      "subChapters": [
+        { "id": "daofa-8s-3-1", "name": "我对谁负责", "order": 1 },
+        { "id": "daofa-8s-3-2", "name": "做负责任的人", "order": 2 },
+        { "id": "daofa-8s-3-3", "name": "服务社会", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级上",
+      "order": 4,
+      "id": "daofa-8s-4",
+      "name": "维护国家利益",
+      "theme": "国家认同",
+      "subChapters": [
+        { "id": "daofa-8s-4-1", "name": "国家利益", "order": 1 },
+        { "id": "daofa-8s-4-2", "name": "国家安全", "order": 2 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 5,
+      "id": "daofa-8x-1",
+      "name": "坚持宪法至上",
+      "theme": "宪法意识",
+      "subChapters": [
+        { "id": "daofa-8x-1-1", "name": "公民权利的保障书", "order": 1 },
+        { "id": "daofa-8x-1-2", "name": "治国安邦的总章程", "order": 2 },
+        { "id": "daofa-8x-1-3", "name": "增强宪法意识", "order": 3 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 6,
+      "id": "daofa-8x-2",
+      "name": "理解权利义务",
+      "theme": "公民教育",
+      "subChapters": [
+        { "id": "daofa-8x-2-1", "name": "公民的基本权利", "order": 1 },
+        { "id": "daofa-8x-2-2", "name": "公民的基本义务", "order": 2 },
+        { "id": "daofa-8x-2-3", "name": "依法行使权利", "order": 3 },
+        { "id": "daofa-8x-2-4", "name": "依法履行义务", "order": 4 }
+      ]
+    },
+    {
+      "grade": "八年级下",
+      "order": 7,
+      "id": "daofa-8x-3",
+      "name": "人民当家作主",
+      "theme": "政治制度",
+      "subChapters": [
+        { "id": "daofa-8x-3-1", "name": "我国基本制度", "order": 1 },
+        { "id": "daofa-8x-3-2", "name": "我国国家机构", "order": 2 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 1,
+      "id": "daofa-9s-1",
+      "name": "富强与创新",
+      "theme": "经济建设",
+      "subChapters": [
+        { "id": "daofa-9s-1-1", "name": "改革开放", "order": 1 },
+        { "id": "daofa-9s-1-2", "name": "走向共同富裕", "order": 2 },
+        { "id": "daofa-9s-1-3", "name": "创新驱动发展", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 2,
+      "id": "daofa-9s-2",
+      "name": "民主与法治",
+      "theme": "政治建设",
+      "subChapters": [
+        { "id": "daofa-9s-2-1", "name": "生活在民主国家", "order": 1 },
+        { "id": "daofa-9s-2-2", "name": "做守法的公民", "order": 2 },
+        { "id": "daofa-9s-2-3", "name": "依法履行义务", "order": 3 }
+      ]
+    },
+    {
+      "grade": "九年级上",
+      "order": 3,
+      "id": "daofa-9s-3",
+      "name": "文明与家园",
+      "theme": "生态文明",
+      "subChapters": [
+        { "id": "daofa-9s-3-1", "name": "守护家园", "order": 1 },
+        { "id": "daofa-9s-3-2", "name": "建设美丽中国", "order": 2 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "order": 4,
+      "id": "daofa-9x-1",
+      "name": "和谐与梦想",
+      "theme": "民族团结",
+      "subChapters": [
+        { "id": "daofa-9x-1-1", "name": "中华一家亲", "order": 1 },
+        { "id": "daofa-9x-1-2", "name": "中国人中国梦", "order": 2 }
+      ]
+    },
+    {
+      "grade": "九年级下",
+      "order": 5,
+      "id": "daofa-9x-2",
+      "name": "世界舞台上的中国",
+      "theme": "国际视野",
+      "subChapters": [
+        { "id": "daofa-9x-2-1", "name": "中国担当", "order": 1 },
+        { "id": "daofa-9x-2-2", "name": "与时俱进", "order": 2 }
+      ]
+    }
+  ]
+}

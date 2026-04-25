@@ -1,0 +1,232 @@
+{
+  "title": "文言文实词虚词汇总",
+  "introduction": "中考必考120个文言实词和18个文言虚词详解",
+  "keywords": [
+    {
+      "word": "爱",
+      "pronunciation": "ài",
+      "meanings": [
+        { "meaning": "喜爱", "example": "爱其子，择师而教之", "translation": "喜爱他的孩子" },
+        { "meaning": "吝惜", "example": "齐国虽褊小，我何爱一牛", "translation": "齐国虽然狭小，我怎么会吝惜一头牛" },
+        { "meaning": "爱护", "example": "吴广素爱人", "translation": "吴广平时爱护士兵" }
+      ]
+    },
+    {
+      "word": "安",
+      "pronunciation": "ān",
+      "meanings": [
+        { "meaning": "安全", "example": "风雨不动安如山", "translation": "在风雨中一动不动像山一样安稳" },
+        { "meaning": "安置", "example": "离山十里有古墓，安葬于此", "translation": "在离山十里的地方有古墓，埋葬在这里" },
+        { "meaning": "怎么", "example": "安能辨我是雄雌", "translation": "怎么能分辨我是雄是雌" },
+        { "meaning": "养生", "example": "然后知安死而足乐", "translation": "然后才知道养生送死可以快乐" }
+      ]
+    },
+    {
+      "word": "被",
+      "pronunciation": "bèi",
+      "meanings": [
+        { "meaning": "被子", "example": "翡翠被", "translation": "绣着翡翠的被子" },
+        { "meaning": "覆盖", "example": "被明月兮佩宝璐", "translation": "沐浴着明月啊佩戴美玉" },
+        { "meaning": "遭受", "example": "秦王复击轲，被八创", "translation": "秦王又攻击荆轲，荆轲被砍伤八处" },
+        { "meaning": "介词，表被动", "example": "信而见疑，忠而被谤", "translation": "诚信却被怀疑，忠贞却被诽谤" }
+      ]
+    },
+    {
+      "word": "倍",
+      "pronunciation": "bèi",
+      "meanings": [
+        { "meaning": "原数相加", "example": "尝以十倍之地", "translation": "曾经用十倍的土地" },
+        { "meaning": "更加", "example": "每逢佳节倍思亲", "translation": "每逢佳节更加思念亲人" }
+      ]
+    },
+    {
+      "word": "本",
+      "pronunciation": "běn",
+      "meanings": [
+        { "meaning": "根本", "example": "臣闻求木之长者，必固其根本", "translation": "我听说想要树木生长，一定要稳固它的根本" },
+        { "meaning": "本来", "example": "本自无教训", "translation": "本来没有受到好的教养" },
+        { "meaning": "根据", "example": "抑本其成败之迹", "translation": "还是根据他成功和失败的迹象" }
+      ]
+    },
+    {
+      "word": "鄙",
+      "pronunciation": "bǐ",
+      "meanings": [
+        { "meaning": "边境", "example": "蜀之鄙有二僧", "translation": "蜀地的边境有两个和尚" },
+        { "meaning": "浅薄", "example": "肉食者鄙，未能远谋", "translation": "有权势的人目光短浅，不能深谋远虑" },
+        { "meaning": "看不起", "example": "过蒙拔擢，宠命优渥，岂敢盘桓，有所希冀", "translation": "过分的提拔，恩宠优厚，怎么敢犹豫不前，有非分的企求呢？" }
+      ]
+    },
+    {
+      "word": "兵",
+      "pronunciation": "bīng",
+      "meanings": [
+        { "meaning": "兵器", "example": "斩木为兵，揭竿为旗", "translation": "砍下树木作为兵器，举起竹竿作为旗帜" },
+        { "meaning": "军队", "example": "起听秦兵十万", "translation": "起兵抗拒秦军十万" },
+        { "meaning": "战争", "example": "兵旱相乘", "translation": "战争和旱灾相继到来" }
+      ]
+    },
+    {
+      "word": "病",
+      "pronunciation": "bìng",
+      "meanings": [
+        { "meaning": "疾病", "example": "臣少多疾病", "translation": "我小时候经常生病" },
+        { "meaning": "困苦", "example": "向吾不为斯役，则久病矣", "translation": "如果我不做这个差役，那就困苦很久了" },
+        { "meaning": "担心", "example": "君子病无能焉，不病人之不己知也", "translation": "君子担心自己没有能力，不担心别人不了解自己" }
+      ]
+    },
+    {
+      "word": "察",
+      "pronunciation": "chá",
+      "meanings": [
+        { "meaning": "仔细看", "example": "徐徐焉察之", "translation": "慢慢地仔细观察它" },
+        { "meaning": "考察", "example": "故察己则可以知人", "translation": "所以考察自己就可以了解别人" }
+      ]
+    },
+    {
+      "word": "彻",
+      "pronunciation": "chè",
+      "meanings": [
+        { "meaning": "通达", "example": "汝心之固，固不可彻", "translation": "你的思想顽固，顽固到不能通达事理" },
+        { "meaning": "彻底", "example": "日光下彻", "translation": "阳光向下通达" }
+      ]
+    },
+    {
+      "word": "乘",
+      "pronunciation": "chéng",
+      "meanings": [
+        { "meaning": "驾车", "example": "乘犊车，从吏卒", "translation": "坐着牛车，跟着官吏士兵" },
+        { "meaning": "趁着", "example": "乘其隙也", "translation": "趁着那个机会" },
+        { "meaning": "chéng：升、登", "example": "乘鄂渚而反顾兮", "translation": "登上鄂渚回头望啊" }
+      ]
+    },
+    {
+      "word": "诚",
+      "pronunciation": "chéng",
+      "meanings": [
+        { "meaning": "确实", "example": "臣诚知不如徐公美", "translation": "我确实知道自己不如徐公美" },
+        { "meaning": "如果", "example": "诚如是，则霸业可成", "translation": "如果真的这样，那么霸业就可以成就" }
+      ]
+    },
+    {
+      "word": "除",
+      "pronunciation": "chú",
+      "meanings": [
+        { "meaning": "台阶", "example": "黎明即起，洒扫庭除", "translation": "天一亮就起来，洒水打扫台阶庭院" },
+        { "meaning": "任命", "example": "除臣洗马", "translation": "任命我为洗马" }
+      ]
+    },
+    {
+      "word": "辞",
+      "pronunciation": "cí",
+      "meanings": [
+        { "meaning": "言语", "example": "动以朝廷为辞", "translation": "动辄用朝廷作借口" },
+        { "meaning": "告别", "example": "今者出，未辞也", "translation": "现在出来了，没有告辞" },
+        { "meaning": "推辞", "example": "臣死且不避，厄酒安足辞", "translation": "我连死都不躲避，一杯酒哪里值得推辞" }
+      ]
+    },
+    {
+      "word": "次",
+      "pronunciation": "cì",
+      "meanings": [
+        { "meaning": "驻扎", "example": "军次函谷", "translation": "军队驻扎在函谷关" },
+        { "meaning": "顺序", "example": "陈胜佐之，并杀两尉，召令徒属", "translation": "陈胜帮助他，一起杀死了两个军官，召集并号令所属部下" }
+      ]
+    },
+    {
+      "word": "殆",
+      "pronunciation": "dài",
+      "meanings": [
+        { "meaning": "危险", "example": "知彼知己，百战不殆", "translation": "了解敌人又了解自己，百次战斗都不会有危险" },
+        { "meaning": "大概", "example": "郦元之所见，殆与余同", "translation": "郦道元所看到的，大概和我相同" }
+      ]
+    },
+    {
+      "word": "当",
+      "pronunciation": "dāng",
+      "meanings": [
+        { "meaning": "在", "example": "当其时也", "translation": "在当时" },
+        { "meaning": "应当", "example": "当奖率三军", "translation": "应当激励率领三军" },
+        { "meaning": "dàng：当作", "example": "当贼相视而惊", "translation": "当作贼人互相看着都惊吓" }
+      ]
+    },
+    {
+      "word": "道",
+      "pronunciation": "dào",
+      "meanings": [
+        { "meaning": "道路", "example": "从此道至吾军", "translation": "从这条道到我们军营" },
+        { "meaning": "主张", "example": "仰宇宙之悠悠，独怆然而涕下", "translation": "仰望着茫茫宇宙，独自感伤地流下眼泪" },
+        { "meaning": "道理", "example": "师者，所以传道受业解惑也", "translation": "老师，是用来传授道理、教授学业、解答疑惑的" }
+      ]
+    },
+    {
+      "word": "得",
+      "pronunciation": "dé",
+      "meanings": [
+        { "meaning": "获得", "example": "得之心而寓之酒也", "translation": "在心里领会它而在酒中寄托它" },
+        { "meaning": "满意", "example": "孔子不能决也，愿见之邪", "translation": "孔子不能决定，希望见到它吗" }
+      ]
+    }
+  ],
+  "虚词": [
+    {
+      "word": "之",
+      "meanings": [
+        { "meaning": "代词，指代人或事物", "example": "送孟浩然之广陵", "translation": "送孟浩然到广陵" },
+        { "meaning": "助词，的", "example": "圣人之道", "translation": "圣人的道理" },
+        { "meaning": "动词，到", "example": "之其所哀矜而辟焉", "translation": "到了他同情别人的时候就偏向了" }
+      ]
+    },
+    {
+      "word": "其",
+      "meanings": [
+        { "meaning": "代词，他的/他们的", "example": "其西南诸峰，林壑优美", "translation": "它西南方向的许多山峰，树林山谷非常优美" },
+        { "meaning": "语气词，加强语气", "example": "其真无马邪", "translation": "难道真的没有千里马吗" }
+      ]
+    },
+    {
+      "word": "而",
+      "meanings": [
+        { "meaning": "连词，表转折", "example": "青取之于蓝而青于蓝", "translation": "靛青是从蓝草中提取的，却比蓝草更青" },
+        { "meaning": "连词，表承接", "example": "登高而招", "translation": "登上高处招手" },
+        { "meaning": "连词，表修饰", "example": "顺流而东行", "translation": "顺着水流往东走" }
+      ]
+    },
+    {
+      "word": "于",
+      "meanings": [
+        { "meaning": "介词，在", "example": "于厅室之东北角施八尺屏障", "translation": "在客厅的东北角放置八尺高的屏障" },
+        { "meaning": "介词，对", "example": "未尝不叹息痛恨于桓灵也", "translation": "没有不对桓灵二帝感到痛心遗憾的" }
+      ]
+    },
+    {
+      "word": "以",
+      "meanings": [
+        { "meaning": "介词，用", "example": "以刀劈狼首", "translation": "用刀砍狼的脑袋" },
+        { "meaning": "介词，因为", "example": "以其无礼于晋", "translation": "因为郑国对晋国没有礼节" },
+        { "meaning": "连词，来", "example": "不敢言而敢怒", "translation": "不敢说话却敢于愤怒" }
+      ]
+    },
+    {
+      "word": "为",
+      "meanings": [
+        { "meaning": "介词，替", "example": "为君翻作琵琶行", "translation": "替您谱写《琵琶行》" },
+        { "meaning": "介词，因为", "example": "因为长句", "translation": "于是写下了长诗" }
+      ]
+    },
+    {
+      "word": "乃",
+      "meanings": [
+        { "meaning": "副词，于是", "example": "乃取一葫芦置于地", "translation": "于是拿一个葫芦放在地上" },
+        { "meaning": "副词，才", "example": "设九傥于郊，然后怀沉璧而去", "translation": "在郊外设置九傥礼，然后抱着和氏璧离去" }
+      ]
+    },
+    {
+      "word": "则",
+      "meanings": [
+        { "meaning": "连词，就", "example": "故木受绳则直", "translation": "所以木材被墨线划过就变直" },
+        { "meaning": "连词，却", "example": "至则无可用", "translation": "到了却没有什么用处" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "mockPapers": [
+    {
+      "id": "chem-mock-2024-01",
+      "subject": "化学",
+      "grade": "九年级",
+      "duration": "60分钟",
+      "totalScore": 100,
+      "sections": [
+        {
+          "name": "选择题",
+          "score": 40,
+          "questions": [
+            {
+              "id": "q1",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "下列变化中，属于化学变化的是：",
+              "options": ["A. 蜡烛熔化", "B. 酒精挥发", "C. 铁丝燃烧", "D. 干冰升华"],
+              "answer": "C"
+            },
+            {
+              "id": "q2",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "空气中体积分数最大的气体是：",
+              "options": ["A. 氧气", "B. 氮气", "C. 二氧化碳", "D. 稀有气体"],
+              "answer": "B"
+            },
+            {
+              "id": "q3",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "下列物质由分子构成的是：",
+              "options": ["A. 铁", "B. 氯化钠", "C. 水", "D. 金刚石"],
+              "answer": "C"
+            },
+            {
+              "id": "q4",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "下列关于分子的说法正确的是：",
+              "options": [
+                "A. 分子是保持物质化学性质的最小粒子",
+                "B. 分子大，原子小",
+                "C. 分子在化学变化中可分，原子不可分",
+                "D. 分子是运动的，原子不运动"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "q5",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "红磷在空气中燃烧的现象是：",
+              "options": [
+                "A. 发出白光，放出热量",
+                "B. 产生大量白烟",
+                "C. 火星四射",
+                "D. 产生蓝色火焰"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q6",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "实验室制取氧气的装置中，试管口应：",
+              "options": [
+                "A. 向上倾斜",
+                "B. 向下倾斜",
+                "C. 保持水平",
+                "D. 垂直向下"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q7",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "电解水时，生成氢气和氧气的体积比为：",
+              "options": ["A. 1:2", "B. 2:1", "C. 1:8", "D. 8:1"],
+              "answer": "B"
+            },
+            {
+              "id": "q8",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "下列物质属于纯净物的是：",
+              "options": ["A. 空气", "B. 海水", "C. 冰水混合物", "D. 牛奶"],
+              "answer": "C"
+            },
+            {
+              "id": "q9",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "在化学反应前后，肯定不变的是：",
+              "options": [
+                "A. 分子种类",
+                "B. 原子种类",
+                "C. 物质种类",
+                "D. 分子数目"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q10",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "能使澄清石灰水变浑浊的气体是：",
+              "options": ["A. 氧气", "B. 氮气", "C. 二氧化碳", "D. 氢气"],
+              "answer": "C"
+            },
+            {
+              "id": "q11",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "下列金属活动性最强的是：",
+              "options": ["A. Fe", "B. Zn", "C. Mg", "D. Ag"],
+              "answer": "C"
+            },
+            {
+              "id": "q12",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "下列溶液显酸性的是：",
+              "options": ["A. 氯化钠溶液", "B. 氢氧化钠溶液", "C. 稀盐酸", "D. 蒸馏水"],
+              "answer": "C"
+            },
+            {
+              "id": "q13",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "配制50g 10%的氯化钠溶液，不需要使用的仪器是：",
+              "options": ["A. 烧杯", "B. 漏斗", "C. 量筒", "D. 玻璃棒"],
+              "answer": "B"
+            },
+            {
+              "id": "q14",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "下列实验操作正确的是：",
+              "options": [
+                "A. 把鼻孔凑到容器口闻气味",
+                "B. 手握试管夹的柄",
+                "C. 把药品直接放在天平上称量",
+                "D. 加热试管时，试管口对着人"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q15",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "金刚石和石墨物理性质差异大的原因是：",
+              "options": [
+                "A. 原子种类不同",
+                "B. 原子排列方式不同",
+                "C. 原子大小不同",
+                "D. 原子数目不同"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q16",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "燃烧和灭火，说法正确的是：",
+              "options": [
+                "A. 燃烧需要可燃物、氧气和着火点",
+                "B. 着火点越高越容易燃烧",
+                "C. 降低温度可以灭火",
+                "D. 增大氧气浓度不影响燃烧"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "q17",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "将铁片浸入硫酸铜溶液中，现象是：",
+              "options": [
+                "A. 产生气泡，溶液变蓝",
+                "B. 铁片表面覆盖红色物质，溶液变为浅绿色",
+                "C. 铁片溶解",
+                "D. 无明显现象"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q18",
+              "type": "选择题",
+              "difficulty": "基础",
+              "score": 2,
+              "question": "酸碱中和反应的实质是：",
+              "options": [
+                "A. 酸和碱反应生成盐和水",
+                "B. H⁺和OH⁻结合生成水",
+                "C. 金属离子和酸根离子结合",
+                "D. 氢原子和氧原子结合"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q19",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "20°C时，NaCl的溶解度为36g，该温度下NaCl饱和溶液的溶质质量分数为：",
+              "options": ["A. 26.5%", "B. 36%", "C. 28.6%", "D. 25%"],
+              "answer": "A"
+            },
+            {
+              "id": "q20",
+              "type": "选择题",
+              "difficulty": "中等",
+              "score": 2,
+              "question": "下列物质暴露在空气中，质量会增加的是：",
+              "options": ["A. 浓盐酸", "B. 浓硫酸", "C. 氢氧化钠固体", "D. 氯化钠"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "name": "填空题",
+          "score": 24,
+          "questions": [
+            {
+              "id": "q21",
+              "type": "填空题",
+              "difficulty": "基础",
+              "score": 3,
+              "question": "空气中氧气约占空气体积的______%。",
+              "answer": "21"
+            },
+            {
+              "id": "q22",
+              "type": "填空题",
+              "difficulty": "基础",
+              "score": 3,
+              "question": "分子和原子都是______粒子（填\"运动\"或\"静止\"）。",
+              "answer": "运动"
+            },
+            {
+              "id": "q23",
+              "type": "填空题",
+              "difficulty": "中等",
+              "score": 3,
+              "question": "在原子里，核电荷数 = ______ = 核外电子数。",
+              "answer": "质子数"
+            },
+            {
+              "id": "q24",
+              "type": "填空题",
+              "difficulty": "基础",
+              "score": 3,
+              "question": "质量守恒定律：参加化学反应的各物质的______，等于反应后生成的各物质的______。",
+              "answer": "质量总和；质量总和"
+            },
+            {
+              "id": "q25",
+              "type": "填空题",
+              "difficulty": "中等",
+              "score": 3,
+              "question": "溶液稀释前后，______质量不变。",
+              "answer": "溶质"
+            },
+            {
+              "id": "q26",
+              "type": "填空题",
+              "difficulty": "基础",
+              "score": 3,
+              "question": "氢气验纯时，如果听到______的声音，说明氢气不纯。",
+              "answer": "尖锐的爆鸣"
+            },
+            {
+              "id": "q27",
+              "type": "填空题",
+              "difficulty": "中等",
+              "score": 3,
+              "question": "书写化学方程式：Fe + O₂ ==点燃== ______",
+              "answer": "Fe₃O₄"
+            },
+            {
+              "id": "q28",
+              "type": "填空题",
+              "difficulty": "基础",
+              "score": 3,
+              "question": "溶液pH______7显酸性，pH______7显碱性（填\">\"、\"<\"或\"=\"）。",
+              "answer": "<；>"
+            }
+          ]
+        },
+        {
+          "name": "实验题",
+          "score": 20,
+          "questions": [
+            {
+              "id": "q29",
+              "type": "实验题",
+              "difficulty": "中等",
+              "score": 10,
+              "question": "根据实验室制取氧气的装置图，回答：\n(1)写出图中标号仪器的名称：a______ b______\n(2)该装置是______法收集氧气，因为氧气______。\n(3)实验结束时，应先______，再______（填\"撤导管\"或\"熄酒精灯\"）。",
+              "answer": "(1)a试管 b集气瓶 (2)排水集气法 氧气不易溶于水 (3)撤导管 熄酒精灯"
+            },
+            {
+              "id": "q30",
+              "type": "实验题",
+              "difficulty": "中等",
+              "score": 10,
+              "question": "某同学在实验室配制50g 10%的氯化钠溶液：\n(1)计算：需要氯化钠______g，水______mL。\n(2)操作步骤：计算、______、溶解、装瓶贴标签。\n(3)配制的溶液溶质质量分数______10%（填\">\"、\"<\"或\"=\"）。",
+              "answer": "(1)5g 45mL (2)称量和量取 (3)=（如果操作正确）"
+            }
+          ]
+        },
+        {
+          "name": "计算题",
+          "score": 16,
+          "questions": [
+            {
+              "id": "q31",
+              "type": "计算题",
+              "difficulty": "中等",
+              "score": 8,
+              "question": "实验室用6.5g锌与足量稀硫酸反应，可生成氢气多少克？",
+              "answer": "0.2g",
+              "solution": "设生成H₂质量为x。Zn + H₂SO₄ = ZnSO₄ + H₂↑，65/6.5 = 2/x，x = 0.2g。"
+            },
+            {
+              "id": "q32",
+              "type": "计算题",
+              "difficulty": "中等",
+              "score": 8,
+              "question": "将12g木炭在氧气中完全燃烧，能生成多少克二氧化碳？",
+              "answer": "44g",
+              "solution": "C + O₂ ==点燃== CO₂，12/12 = x/44，x = 44g。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

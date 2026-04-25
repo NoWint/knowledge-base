@@ -1,0 +1,199 @@
+{
+  "examCategories": [
+    {
+      "category": "地球和地图",
+      "questions": [
+        {
+          "id": "geo-exam-1",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "关于经纬线的说法，正确的是：",
+          "options": ["A. 经线长度相等，纬线长度也相等", "B. 经线指示东西方向，纬线指示南北方向", "C. 所有经线都相交于南北两极", "D. 0°经线是本初子午线，0°纬线是赤道"],
+          "answer": "C",
+          "explanation": "经线是连接南北两极的半圆，长度相等；纬线是平行于赤道的圆圈，从赤道向两极逐渐缩短。",
+          "knowledgePoints": ["经线和纬线的特点", "经纬度"]
+        },
+        {
+          "id": "geo-exam-2",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "地球自转产生的现象是：",
+          "options": ["A. 四季更替", "B. 昼夜长短变化", "C. 昼夜更替", "D. 五带划分"],
+          "answer": "C",
+          "explanation": "地球自转产生昼夜更替、日月星辰东升西落和时间差异；公转产生四季更替、昼夜长短变化和五带划分。",
+          "knowledgePoints": ["地球自转", "地球公转"]
+        },
+        {
+          "id": "geo-exam-3",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "下列比例尺中，最大的是：",
+          "options": ["A. 1:1000000", "B. 1:100000", "C. 图上1厘米代表实地1千米", "D. 1厘米：10千米"],
+          "answer": "B",
+          "explanation": "比例尺大小比较：分母越小，比例尺越大。1:100000的分母最小，比例尺最大。",
+          "knowledgePoints": ["比例尺大小比较"]
+        },
+        {
+          "id": "geo-exam-5",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "关于地球公转的说法，正确的是：",
+          "options": ["A. 地球公转方向是自东向西", "B. 地球公转产生了昼夜更替", "C. 夏至日时，太阳直射北回归线", "D. 冬至日时，南极圈内有极昼现象"],
+          "answer": "C",
+          "explanation": "地球公转方向是自西向东；夏至日太阳直射北回归线，北极圈内有极昼现象。",
+          "knowledgePoints": ["地球公转", "二分二至日"]
+        }
+      ]
+    },
+    {
+      "category": "海洋与陆地",
+      "questions": [
+        {
+          "id": "geo-exam-6",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "世界陆地表面约占全球面积的：",
+          "options": ["A. 29%", "B. 39%", "C. 51%", "D. 71%"],
+          "answer": "A",
+          "explanation": "地球表面海洋约占71%，陆地约占29%，即七分海洋三分陆地。",
+          "knowledgePoints": ["海陆比例"]
+        },
+        {
+          "id": "geo-exam-7",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "亚洲与非洲的分界线是：",
+          "options": ["A. 白令海峡", "B. 苏伊士运河", "C. 巴拿马运河", "D. 乌拉尔山脉"],
+          "answer": "B",
+          "explanation": "亚洲与非洲以苏伊士运河为界；白令海峡是亚洲与北美洲的分界线；巴拿马运河是南北美洲的分界线。",
+          "knowledgePoints": ["大洲分界线"]
+        },
+        {
+          "id": "geo-exam-8",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "下列大洲中，面积最大的是：",
+          "options": ["A. 非洲", "B. 北美洲", "C. 亚洲", "D. 南美洲"],
+          "answer": "C",
+          "explanation": "亚洲是世界上面积最大的大洲，约4400万平方千米。",
+          "knowledgePoints": ["七大洲面积比较"]
+        }
+      ]
+    },
+    {
+      "category": "天气与气候",
+      "questions": [
+        {
+          "id": "geo-exam-9",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "关于天气和气候的叙述，正确的是：",
+          "options": ["A. 天气是短期内的大气状况", "B. 气候是短期的、变化的大气状况", "C. 天气和气候没有区别", "D. 气候是一个地区多年的平均大气状况"],
+          "answer": "A",
+          "explanation": "天气是短时间内的大气状况，多变；气候是长时间的平均大气状况，相对稳定。",
+          "knowledgePoints": ["天气与气候的区别"]
+        },
+        {
+          "id": "geo-exam-10",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "赤道附近的主要气候类型是：",
+          "options": ["A. 热带雨林气候", "B. 热带草原气候", "C. 热带季风气候", "D. 热带沙漠气候"],
+          "answer": "A",
+          "explanation": "赤道附近受赤道低气压带控制，全年高温多雨，形成热带雨林气候。",
+          "knowledgePoints": ["热带雨林气候分布"]
+        }
+      ]
+    },
+    {
+      "category": "中国地理",
+      "questions": [
+        {
+          "id": "geo-exam-12",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "中国位于：",
+          "options": ["A. 东半球、南半球", "B. 东半球、北半球", "C. 西半球、北半球", "D. 西半球、南半球"],
+          "answer": "B",
+          "explanation": "中国位于东半球、北半球，亚洲东部，太平洋西岸。",
+          "knowledgePoints": ["中国的地理位置"]
+        },
+        {
+          "id": "geo-exam-13",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "中国陆地面积约为：",
+          "options": ["A. 960万平方千米", "B. 1260万平方千米", "C. 9600万平方千米", "D. 300万平方千米"],
+          "answer": "A",
+          "explanation": "中国陆地面积约960万平方千米，居世界第三位。",
+          "knowledgePoints": ["中国的疆域"]
+        },
+        {
+          "id": "geo-exam-14",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "我国的地势特点是：",
+          "options": ["A. 东高西低", "B. 西高东低", "C. 南高北低", "D. 南北高，中间低"],
+          "answer": "B",
+          "explanation": "中国地势特点是西高东低，呈三级阶梯状分布。",
+          "knowledgePoints": ["中国的地形地势"]
+        },
+        {
+          "id": "geo-exam-16",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "我国年降水量分布规律是：",
+          "options": ["A. 从东南沿海向西北内陆递减", "B. 从西北内陆向东南沿海递减", "C. 全国分布均匀", "D. 从北向南递减"],
+          "answer": "A",
+          "explanation": "受夏季风影响，我国年降水量从东南沿海向西北内陆递减。",
+          "knowledgePoints": ["中国降水量分布"]
+        },
+        {
+          "id": "geo-exam-17",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "我国人口最多的少数民族是：",
+          "options": ["A. 回族", "B. 壮族", "C. 满族", "D. 苗族"],
+          "answer": "B",
+          "explanation": "壮族是我国人口最多的少数民族，约1700万人。",
+          "knowledgePoints": ["中国的民族"]
+        },
+        {
+          "id": "geo-exam-18",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "北方地区的主要粮食作物是：",
+          "options": ["A. 水稻", "B. 小麦", "C. 油菜", "D. 甘蔗"],
+          "answer": "B",
+          "explanation": "北方地区以旱地为主，主要粮食作物是小麦；南方地区以水田为主，主要粮食作物是水稻。",
+          "knowledgePoints": ["南北方农业差异"]
+        }
+      ]
+    },
+    {
+      "category": "四大地理区域",
+      "questions": [
+        {
+          "id": "geo-exam-19",
+          "type": "选择题",
+          "difficulty": "基础",
+          "question": "秦岭-淮河一线是：",
+          "options": ["A. 暖温带与亚热带分界线", "B. 干旱区与半干旱区分界线", "C. 季风区与非季风区分界线", "D. 中温带与暖温带分界线"],
+          "answer": "A",
+          "explanation": "秦岭-淮河一线是暖温带与亚热带的分界线，也是水田与旱地的分界线。",
+          "knowledgePoints": ["秦岭-淮河分界线"]
+        },
+        {
+          "id": "geo-exam-20",
+          "type": "选择题",
+          "difficulty": "中等",
+          "question": "青藏高原的气候特点是：",
+          "options": ["A. 温暖湿润", "B. 高寒", "C. 炎热干燥", "D. 四季分明"],
+          "answer": "B",
+          "explanation": "青藏高原平均海拔4000米以上，气候特点为高寒。",
+          "knowledgePoints": ["青藏地区"]
+        }
+      ]
+    }
+  ]
+}

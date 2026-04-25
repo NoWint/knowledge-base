@@ -1,0 +1,219 @@
+{
+  "title": "函数图像变换专题",
+  "version": "北师大版",
+  "categories": [
+    {
+      "name": "平移变换",
+      "order": 1,
+      "transformations": [
+        {
+          "type": "左右平移",
+          "rule": "左加右减",
+          "formula": "y = f(x) → y = f(x + a)（左移a个单位）\ny = f(x) → y = f(x - a)（右移a个单位）",
+          "example": {
+            "content": "将 y = x² 的图像左移2个单位，解析式为？",
+            "answer": "y = (x + 2)²"
+          },
+          "note": "左移：x变成x+a；右移：x变成x-a"
+        },
+        {
+          "type": "上下平移",
+          "rule": "上加下减",
+          "formula": "y = f(x) → y = f(x) + a（上移a个单位）\ny = f(x) → y = f(x) - a（下移a个单位）",
+          "example": {
+            "content": "将 y = x² 的图像上移3个单位，解析式为？",
+            "answer": "y = x² + 3"
+          },
+          "note": "上加下减，直接在解析式后面加减"
+        }
+      ]
+    },
+    {
+      "name": "轴对称变换",
+      "order": 2,
+      "transformations": [
+        {
+          "type": "关于x轴对称",
+          "rule": "y变相反数",
+          "formula": "y = f(x) → y = -f(x)",
+          "example": {
+            "content": "y = 2x + 1 关于x轴对称后的解析式",
+            "answer": "y = -2x - 1"
+          },
+          "key": "x不变，y变成-y"
+        },
+        {
+          "type": "关于y轴对称",
+          "rule": "x变相反数",
+          "formula": "y = f(x) → y = f(-x)",
+          "example": {
+            "content": "y = 2x + 1 关于y轴对称后的解析式",
+            "answer": "y = -2x + 1"
+          },
+          "key": "y不变，x变成-x"
+        },
+        {
+          "type": "关于原点对称",
+          "rule": "x,y都变相反数",
+          "formula": "y = f(x) → -y = f(-x)，即 y = -f(-x)",
+          "example": {
+            "content": "y = 2x + 1 关于原点对称后的解析式",
+            "answer": "y = -2x + 1 → y = -2x + 1? 错误! 正确: y = -2x - 1"
+          },
+          "key": "x,y都变成相反数"
+        }
+      ]
+    },
+    {
+      "name": "伸缩变换",
+      "order": 3,
+      "transformations": [
+        {
+          "type": "横向伸缩",
+          "rule": "x的系数变化",
+          "formula": "y = f(x) → y = f(kx)（横坐标缩为原来的1/k）",
+          "example": {
+            "content": "y = sin x 的图像横坐标变为原来的2倍（纵坐标不变），解析式",
+            "answer": "y = sin(2x)"
+          },
+          "note": "横坐标扩大k倍，x变成kx"
+        },
+        {
+          "type": "纵向伸缩",
+          "rule": "y的系数变化",
+          "formula": "y = f(x) → y = kf(x)（纵坐标缩为原来的k倍）",
+          "example": {
+            "content": "y = sin x 的图像纵坐标变为原来的2倍（横坐标不变），解析式",
+            "answer": "y = 2sin x"
+          },
+          "note": "纵坐标扩大k倍，整个解析式乘以k"
+        }
+      ]
+    },
+    {
+      "name": "二次函数图像变换",
+      "order": 4,
+      "patterns": [
+        {
+          "name": "顶点式变换",
+          "formula": "y = a(x-h)² + k",
+          "transformations": [
+            {
+              "action": "左移m",
+              "result": "y = a(x-h+m)² + k"
+            },
+            {
+              "action": "右移m",
+              "result": "y = a(x-h-m)² + k"
+            },
+            {
+              "action": "上移n",
+              "result": "y = a(x-h)² + k + n"
+            },
+            {
+              "action": "下移n",
+              "result": "y = a(x-h)² + k - n"
+            }
+          ],
+          "example": {
+            "content": "将 y = 2(x-1)² + 3 左移2单位，上移1单位",
+            "solution": "y = 2(x-1+2)² + 3 + 1 = 2(x+1)² + 4",
+            "answer": "y = 2(x+1)² + 4"
+          }
+        },
+        {
+          "name": "开口变换",
+          "formula": "y = ax² + bx + c → y = |a|·x²（开口方向和大小变化）",
+          "transformations": [
+            {
+              "action": "开口扩大k倍",
+              "result": "y = ka·x² + kb·x + kc"
+            },
+            {
+              "action": "开口缩小k倍",
+              "result": "y = (a/k)·x² + (b/k)·x + c/k"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "实际应用中的图像变换",
+      "order": 5,
+      "patterns": [
+        {
+          "name": "行程问题图像",
+          "description": "s-t图、v-t图的物理意义",
+          "keyPoints": [
+            "s-t图中，斜率表示速度",
+            "水平线表示静止",
+            "与t轴交点表示返回起点",
+            "面积没有物理意义"
+          ],
+          "example": {
+            "content": "某人从家出发，先匀速行驶2小时走了40km，休息1小时，然后以原速度返回，求s-t图",
+            "solution": "三段：上升直线、水平线、下降直线"
+          }
+        },
+        {
+          "name": "经济问题图像",
+          "description": "成本、利润、销量关系",
+          "keyPoints": [
+            "利润 = 售价 - 成本",
+            "销量与价格成反比时，用反比例函数",
+            "最大利润点：顶点坐标"
+          ],
+          "example": {
+            "content": "某商品进价40元，售价x元，销量为(200-2x)件，求最大利润",
+            "solution": "L = (x-40)(200-2x) = -2x² + 280x - 8000，顶点x=70时L最大=1800"
+          }
+        },
+        {
+          "name": "拱桥问题",
+          "description": "抛物线实际应用",
+          "keyPoints": [
+            "建立坐标系，求抛物线解析式",
+            "拱高、跨度、拱形问题",
+            "水面上升/下降问题"
+          ],
+          "example": {
+            "content": "拱桥跨度20m，拱高4m，建立坐标系求抛物线解析式",
+            "solution": "设y = ax² + c，代入(10,0)和(0,4)得 y = -x²/25 + 4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "综合变换",
+      "order": 6,
+      "patterns": [
+        {
+          "name": "先平移后翻折",
+          "steps": [
+            "按顺序依次变换",
+            "注意变换的先后顺序会影响结果"
+          ],
+          "example": {
+            "content": "y = x² 先左移1，再关于x轴翻折",
+            "solution": "左移：y = (x+1)²；翻折：y = -(x+1)²",
+            "answer": "y = -(x+1)²"
+          },
+          "note": "平移和翻折顺序不同，结果可能不同"
+        },
+        {
+          "name": "先翻折后平移",
+          "steps": [
+            "先做翻折变换",
+            "再按规则平移"
+          ],
+          "example": {
+            "content": "y = x² 先关于x轴翻折，再左移1",
+            "solution": "翻折：y = -x²；左移：y = -(x+1)²",
+            "answer": "y = -(x+1)²"
+          },
+          "note": "与先平移后翻折结果相同？但要注意x的变化"
+        }
+      ]
+    }
+  ]
+}

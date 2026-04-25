@@ -1,0 +1,396 @@
+{
+  "equations": [
+    {
+      "equation": "4Fe + 3O₂ ==点燃== 2Fe₂O₃",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "火星四射，放出大量热，生成黑色固体",
+      "application": "铁在氧气中燃烧，用于焊接和切割金属",
+      "notes": "实验前要在集气瓶底铺一层细沙或加入少量水，防止瓶底受热炸裂"
+    },
+    {
+      "equation": "2Mg + O₂ ==点燃== 2MgO",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "发出耀眼的白光，放出大量热，生成白色固体",
+      "application": "用于照明弹、烟花",
+      "notes": "镁条使用前要用砂纸打磨掉表面的氧化膜"
+    },
+    {
+      "equation": "2H₂ + O₂ ==点燃== 2H₂O",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "产生淡蓝色火焰，放出大量热，烧杯内壁有水雾",
+      "application": "氢气作为清洁燃料",
+      "notes": "点燃氢气前必须验纯，防止爆炸"
+    },
+    {
+      "equation": "S + O₂ ==点燃== SO₂",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "发出淡蓝色火焰，放出热量，生成有刺激性气味的气体",
+      "application": "工业制硫酸的第一步",
+      "notes": "硫在空气中燃烧火焰为淡蓝色，在氧气中为蓝紫色"
+    },
+    {
+      "equation": "C + O₂ ==点燃== CO₂",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "发出白光，放出热量，生成能使澄清石灰水变浑浊的气体",
+      "application": "碳燃烧提供热量",
+      "notes": "碳在氧气中燃烧比在空气中更剧烈"
+    },
+    {
+      "equation": "2C + O₂ ==点燃== 2CO",
+      "type": "化合反应",
+      "conditions": "点燃（不完全燃烧）",
+      "phenomenon": "火焰发红，放出热量",
+      "application": "煤气中毒的主要原因",
+      "notes": "碳在氧气不充足时发生不完全燃烧，生成一氧化碳"
+    },
+    {
+      "equation": "4P + 5O₂ ==点燃== 2P₂O₅",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "发出白光，放出大量热，产生大量白烟",
+      "application": "用于制造火柴、烟幕弹",
+      "notes": "白烟是五氧化二磷固体小颗粒"
+    },
+    {
+      "equation": "2KClO₃ ==MnO₂/加热== 2KCl + 3O₂↑",
+      "type": "分解反应",
+      "conditions": "MnO₂作催化剂，加热",
+      "phenomenon": "试管内固体逐渐减少，生成使带火星木条复燃的气体",
+      "application": "实验室制取氧气的方法之一",
+      "notes": "二氧化锰作催化剂，质量不变，反应前后化学性质不变"
+    },
+    {
+      "equation": "2KMnO₄ ==加热== K₂MnO₄ + MnO₂ + O₂↑",
+      "type": "分解反应",
+      "conditions": "加热",
+      "phenomenon": "试管口有水生成，生成使带火星木条复燃的气体",
+      "application": "实验室制取氧气（简便方法）",
+      "notes": "高锰酸钾制氧气时试管口要放一团棉花，防止粉末堵塞导管"
+    },
+    {
+      "equation": "2H₂O₂ ==MnO₂== 2H₂O + O₂↑",
+      "type": "分解反应",
+      "conditions": "MnO₂作催化剂",
+      "phenomenon": "产生大量气泡，使带火星木条复燃",
+      "application": "实验室或工业制取氧气（常温）",
+      "notes": "过氧化氢溶液俗称双氧水，二氧化锰是催化剂"
+    },
+    {
+      "equation": "2H₂O ==通电== 2H₂↑ + O₂↑",
+      "type": "分解反应",
+      "conditions": "通电",
+      "phenomenon": "两个电极上有气泡产生，正极产生的气体使带火星木条复燃，负极产生的气体可燃烧",
+      "application": "电解水制取氢气和氧气",
+      "notes": "正极产生氧气（阳极），负极产生氢气（阴极），体积比为1:2"
+    },
+    {
+      "equation": "CaCO₃ ==高温== CaO + CO₂↑",
+      "type": "分解反应",
+      "conditions": "高温",
+      "phenomenon": "固体逐渐减少，生成能使澄清石灰水变浑浊的气体",
+      "application": "工业煅烧石灰石制取生石灰和二氧化碳",
+      "notes": "石灰石、大理石的主要成分都是碳酸钙"
+    },
+    {
+      "equation": "Zn + H₂SO₄ = ZnSO₄ + H₂↑",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "锌粒逐渐减少，表面产生气泡，溶液由无色变为浅绿色",
+      "application": "实验室制取氢气",
+      "notes": "不能用稀盐酸代替稀硫酸，因为反应生成氯化锌微溶，覆盖在锌粒表面阻止反应"
+    },
+    {
+      "equation": "Zn + 2HCl = ZnCl₂ + H₂↑",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "锌粒逐渐减少，表面产生气泡",
+      "application": "实验室制取氢气",
+      "notes": "盐酸浓度不能太大，否则反应过于剧烈"
+    },
+    {
+      "equation": "Fe + 2HCl = FeCl₂ + H₂↑",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "铁钉逐渐减少，表面产生气泡，溶液由无色变为浅绿色",
+      "application": "工业除锈（需后续处理）",
+      "notes": "铁与酸反应生成亚铁离子，溶液呈浅绿色"
+    },
+    {
+      "equation": "Fe + CuSO₄ = FeSO₄ + Cu",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "铁钉表面覆盖一层红色物质，溶液由蓝色逐渐变为浅绿色",
+      "application": "湿法冶金术提取铜",
+      "notes": "铁的金属活动性比铜强，可以把铜从其盐溶液中置换出来"
+    },
+    {
+      "equation": "Cu + 2AgNO₃ = Cu(NO₃)₂ + 2Ag",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "铜丝表面覆盖一层银白色物质，溶液由无色变为蓝色",
+      "application": "铜器表面镀银",
+      "notes": "铜的金属活动性比银强"
+    },
+    {
+      "equation": "H₂ + CuO ==加热== Cu + H₂O",
+      "type": "置换反应",
+      "conditions": "加热",
+      "phenomenon": "黑色粉末逐渐变为红色，试管口有水珠生成",
+      "application": "氢气还原氧化铜冶炼铜",
+      "notes": "实验前要先通入氢气排尽试管内空气，实验后要继续通入氢气至冷却"
+    },
+    {
+      "equation": "C + 2CuO ==高温== 2Cu + CO₂↑",
+      "type": "置换反应",
+      "conditions": "高温",
+      "phenomenon": "黑色粉末逐渐变为红色，生成能使澄清石灰水变浑浊的气体",
+      "application": "碳还原氧化铜",
+      "notes": "反应需要在高温条件下进行"
+    },
+    {
+      "equation": "CO + CuO ==加热== Cu + CO₂",
+      "type": "氧化还原反应",
+      "conditions": "加热",
+      "phenomenon": "黑色粉末逐渐变为红色，生成能使澄清石灰水变浑浊的气体",
+      "application": "工业炼铁中的还原反应",
+      "notes": "一氧化碳具有毒性，处理尾气时要点燃或收集"
+    },
+    {
+      "equation": "3CO + Fe₂O₃ ==高温== 2Fe + 3CO₂",
+      "type": "氧化还原反应",
+      "conditions": "高温",
+      "phenomenon": "红棕色粉末逐渐变为黑色，生成能使澄清石灰水变浑浊的气体",
+      "application": "工业炼铁",
+      "notes": "这是炼铁的主要反应，一氧化碳是还原剂"
+    },
+    {
+      "equation": "Ca(OH)₂ + CO₂ = CaCO₃↓ + H₂O",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "澄清石灰水变浑浊",
+      "application": "检验二氧化碳的存在",
+      "notes": "石灰水要新制的，因为氢氧化钙微溶于水，放置久了会析出"
+    },
+    {
+      "equation": "2NaOH + H₂SO₄ = Na₂SO₄ + 2H₂O",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "无明显现象",
+      "application": "酸碱中和反应",
+      "notes": "中和反应放热，可用温度计测量"
+    },
+    {
+      "equation": "NaOH + HCl = NaCl + H₂O",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "无明显现象（或溶液温度升高）",
+      "application": "酸碱中和反应",
+      "notes": "中和反应实质是H⁺和OH⁻结合生成水"
+    },
+    {
+      "equation": "Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂↑",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "产生大量气泡，澄清石灰水变浑浊",
+      "application": "检验碳酸根离子的方法",
+      "notes": "碳酸盐的检验：加稀盐酸产生使澄清石灰水变浑浊的气体"
+    },
+    {
+      "equation": "NaHCO₃ + HCl = NaCl + H₂O + CO₂↑",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "产生大量气泡",
+      "application": "治疗胃酸过多",
+      "notes": "碳酸氢钠（小苏打）可中和胃酸"
+    },
+    {
+      "equation": "Ca(OH)₂ + Na₂CO₃ = CaCO₃↓ + 2NaOH",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "产生白色沉淀",
+      "application": "工业制取氢氧化钠（纯碱烧碱法）",
+      "notes": "生成的氢氧化钠是重要的化工原料"
+    },
+    {
+      "equation": "BaCl₂ + H₂SO₄ = BaSO₄↓ + 2HCl",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "产生白色沉淀",
+      "application": "检验硫酸根离子",
+      "notes": "硫酸钡不溶于酸，是白色沉淀"
+    },
+    {
+      "equation": "AgNO₃ + HCl = AgCl↓ + HNO₃",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "产生白色沉淀",
+      "application": "检验氯离子",
+      "notes": "氯化银不溶于酸，是白色沉淀"
+    },
+    {
+      "equation": "2NaOH + CuSO₄ = Cu(OH)₂↓ + Na₂SO₄",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "产生蓝色沉淀",
+      "application": "检验蛋白质（显色反应）",
+      "notes": "氢氧化铜是蓝色沉淀，常用于鉴别蛋白质"
+    },
+    {
+      "equation": "Fe(OH)₃ + 3HCl = FeCl₃ + 3H₂O",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "红褐色沉淀溶解",
+      "application": "除铁锈",
+      "notes": "氢氧化铁不溶于水，但能溶于酸"
+    },
+    {
+      "equation": "Cu(OH)₂ + 2HCl = CuCl₂ + 2H₂O",
+      "type": "复分解反应",
+      "conditions": "常温",
+      "phenomenon": "蓝色沉淀溶解，溶液变为蓝色",
+      "application": "治疗胃酸过多（中和胃酸）",
+      "notes": "氢氧化铜是蓝色沉淀"
+    },
+    {
+      "equation": "CaO + H₂O = Ca(OH)₂",
+      "type": "化合反应",
+      "conditions": "常温",
+      "phenomenon": "块状固体变为粉末，放出大量热",
+      "application": "建筑材料，制备氢氧化钠",
+      "notes": "生石灰与水反应放热，可煮熟鸡蛋"
+    },
+    {
+      "equation": "Na₂O + H₂O = 2NaOH",
+      "type": "化合反应",
+      "conditions": "常温",
+      "phenomenon": "固体溶解，放出热量",
+      "application": "制取氢氧化钠",
+      "notes": "氧化钠与水剧烈反应"
+    },
+    {
+      "equation": "SO₃ + H₂O = H₂SO₄",
+      "type": "化合反应",
+      "conditions": "常温",
+      "phenomenon": "无明显现象（溶解放热）",
+      "application": "工业制硫酸",
+      "notes": "三氧化硫溶于水放出大量热"
+    },
+    {
+      "equation": "Na₂CO₃·10H₂O = Na₂CO₃ + 10H₂O",
+      "type": "分解反应",
+      "conditions": "常温或加热",
+      "phenomenon": "晶体逐渐松散，变白",
+      "application": "制冷剂（原理：风化带走热量）",
+      "notes": "风化是失去结晶水的过程，化学变化"
+    },
+    {
+      "equation": "CuSO₄·5H₂O ==加热== CuSO₄ + 5H₂O↑",
+      "type": "分解反应",
+      "conditions": "加热",
+      "phenomenon": "蓝色晶体逐渐变为白色粉末，试管口有水珠生成",
+      "application": "检验水（将无水硫酸铜放在待检物上方）",
+      "notes": "白色硫酸铜遇水变蓝，可用于检验水的存在"
+    },
+    {
+      "equation": "2CO + O₂ ==点燃== 2CO₂",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "产生蓝色火焰，放出热量",
+      "application": "煤气燃烧",
+      "notes": "一氧化碳有毒，燃烧时火焰呈蓝色"
+    },
+    {
+      "equation": "CO₂ + H₂O = H₂CO₃",
+      "type": "化合反应",
+      "conditions": "常温",
+      "phenomenon": "紫色石蕊试液变红",
+      "application": "碳酸饮料",
+      "notes": "碳酸不稳定，易分解"
+    },
+    {
+      "equation": "H₂CO₃ ==加热== H₂O + CO₂↑",
+      "type": "分解反应",
+      "conditions": "加热",
+      "phenomenon": "有气泡产生，红色石蕊试液变回紫色",
+      "application": "碳酸分解",
+      "notes": "碳酸不稳定，受热易分解"
+    },
+    {
+      "equation": "2C + Fe₃O₄ ==高温== 3Fe + 2CO₂↑",
+      "type": "氧化还原反应",
+      "conditions": "高温",
+      "phenomenon": "黑色粉末逐渐变为黑色（铁珠），生成能使澄清石灰水变浑浊的气体",
+      "application": "工业炼铁（用CO代替C更纯净）",
+      "notes": "四氧化三铁是磁性氧化铁"
+    },
+    {
+      "equation": "CH₄ + 2O₂ ==点燃== CO₂ + 2H₂O",
+      "type": "氧化反应",
+      "conditions": "点燃",
+      "phenomenon": "产生蓝色火焰，放出热量，罩在火焰上方的烧杯内壁有水珠",
+      "application": "天然气（甲烷）燃烧",
+      "notes": "甲烷是最简单的有机物，天然气的主要成分"
+    },
+    {
+      "equation": "C₂H₅OH + 3O₂ ==点燃== 2CO₂ + 3H₂O",
+      "type": "氧化反应",
+      "conditions": "点燃",
+      "phenomenon": "产生淡蓝色火焰，放出热量",
+      "application": "酒精作为燃料",
+      "notes": "酒精燃烧放出大量热，是一种清洁燃料"
+    },
+    {
+      "equation": "2Mg + CO₂ ==点燃== 2MgO + C",
+      "type": "置换反应",
+      "conditions": "点燃",
+      "phenomenon": "燃烧发出耀眼的白光，生成白色固体和黑色固体",
+      "application": "镁条能在二氧化碳中燃烧",
+      "notes": "不能用二氧化碳灭火器扑灭镁燃烧"
+    },
+    {
+      "equation": "2Na + Cl₂ ==点燃== 2NaCl",
+      "type": "化合反应",
+      "conditions": "点燃",
+      "phenomenon": "剧烈燃烧，发出黄色火焰，生成白色固体",
+      "application": "工业制食盐",
+      "notes": "氯气有毒，有刺激性气味"
+    },
+    {
+      "equation": "CuO + H₂SO₄ = CuSO₄ + H₂O",
+      "type": "复分解反应",
+      "conditions": "常温（加热加速）",
+      "phenomenon": "黑色固体溶解，溶液变为蓝色",
+      "application": "除铁锈",
+      "notes": "氧化铜溶于稀硫酸"
+    },
+    {
+      "equation": "Fe₂O₃ + 3H₂SO₄ = Fe₂(SO₄)₃ + 3H₂O",
+      "type": "复分解反应",
+      "conditions": "加热",
+      "phenomenon": "红棕色固体溶解，溶液变为黄色",
+      "application": "除铁锈",
+      "notes": "硫酸铁溶于水呈黄色"
+    },
+    {
+      "equation": "Al + 3AgNO₃ = Al(NO₃)₃ + 3Ag",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "银白色金属表面覆盖一层银白色物质，溶液仍为无色",
+      "application": "银器镀铝",
+      "notes": "铝的金属活动性比银强"
+    },
+    {
+      "equation": "2Al + 3CuCl₂ = 2AlCl₃ + 3Cu",
+      "type": "置换反应",
+      "conditions": "常温",
+      "phenomenon": "铜丝表面覆盖一层红色物质，溶液由蓝色变为无色",
+      "application": "铜的冶炼",
+      "notes": "铝的金属活动性比铜强"
+    }
+  ]
+}
