@@ -20,7 +20,7 @@ export function StreakDisplay() {
 
     async function loadStreak() {
       try {
-        const updatedStreak = await checkAndUpdateStreak(currentUser.id)
+        const updatedStreak = await checkAndUpdateStreak(currentUser!.id)
         setStreak(updatedStreak)
       } catch (error) {
         console.error("Failed to load streak:", error)

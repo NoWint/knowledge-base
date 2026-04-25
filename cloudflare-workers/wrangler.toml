@@ -1,0 +1,28 @@
+name = "knowledge-base-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "knowledge-base-api"
+routes = [
+  { pattern = "api.knowledgestudy.com", zone_name = "knowledgestudy.com" }
+]
+
+[[kv_namespaces]]
+binding = "USERS_KV"
+id = "YOUR_USERS_KV_ID"
+preview_id = "preview_users_kv"
+
+[[kv_namespaces]]
+binding = "SYNC_KV"
+id = "YOUR_SYNC_KV_ID"
+preview_id = "preview_sync_kv"
+
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS_KV"
+id = "YOUR_SUBSCRIPTIONS_KV_ID"
+preview_id = "preview_subscriptions_kv"
+
+[vars]
+JWT_SECRET = "your-super-secret-jwt-key-change-in-production"
+API_BASE_URL = "https://api.knowledgestudy.com"

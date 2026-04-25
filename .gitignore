@@ -18,12 +18,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# IDE
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon
 ._*
+*.webarchive
 
 # TypeScript
 *.tsbuildinfo
@@ -38,6 +39,12 @@ next-env.d.ts
 *.swp
 *.swo
 
+# Trae IDE
+.trae/
+
+# Wrangler
+.wrangler/
+.dev.vars
+
 # Misc
 *.log
-node_modules

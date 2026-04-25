@@ -21,8 +21,9 @@ export function AchievementBadges() {
 
     async function loadAchievements() {
       try {
-        const streak = await getUserStreak(currentUser.id)
-        const answers = await db.userAnswers.where("userId").equals(currentUser.id).toArray()
+        const userId = currentUser!.id
+        const streak = await getUserStreak(userId)
+        const answers = await db.userAnswers.where("userId").equals(userId).toArray()
 
         const correctAnswers = answers.filter(a => a.isCorrect).length
         const stats = {

@@ -81,6 +81,7 @@ export function checkAchievements(
 
     return {
       ...achievement,
+      unlockedAt: progress >= achievement.requirement ? new Date() : null,
       progress: Math.min(progress, achievement.requirement),
       isUnlocked: progress >= achievement.requirement,
     }

@@ -5,7 +5,9 @@ import { useUserStore } from "@/store/user-store"
 import { db } from "@/lib/db/database"
 import { motion } from "framer-motion"
 import { AppLayout } from "@/components/layout/app-layout"
-import { NebulaKnowledgeGraph } from "@/components/graph/nebula-graph"
+import dynamic from "next/dynamic"
+import { StreakDisplay } from "@/components/streak/streak-display"
+import { AchievementBadges } from "@/components/achievements/achievement-badges"
 import {
   BookOpen,
   PenTool,
@@ -18,7 +20,25 @@ import {
   TrendingUp,
   Sparkles,
   Flame,
+  Brain,
+  Layers,
+  Zap,
 } from "lucide-react"
+
+const NebulaKnowledgeGraph = dynamic(
+  () => import("@/components/graph/nebula-graph").then(mod => ({ default: mod.NebulaKnowledgeGraph })),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex items-center justify-center h-full">
+        <div className="text-center">
+          <div className="w-8 h-8 border-2 border-purple-500 border-t-transparent rounded-full animate-spin mx-auto" />
+          <p className="mt-3 text-xs text-white/50">加载知识星云...</p>
+        </div>
+      </div>
+    ),
+  }
+)
 
 const springConfig = { type: "spring", stiffness: 300, damping: 25, mass: 0.8 }
 const smoothEase = [0.25, 0.1, 0.25, 1]
@@ -269,51 +289,48 @@ export default function Home() {
         </motion.div>
 
         <div>
-          <motion.h2
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1, transition: { duration: 0.3, ease: smoothEase } },
-            }}
-            className="mb-3 text-base font-semibold text-gray-900"
-          >
-            快捷入口
-          </motion.h2>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="flex items-center justify-between mb-4">
+            <motion.h2
+              variants={{
+                hidden: { opacity: 0 },
+                visible: { opacity: 1, transition: { duration: 0.3, ease: smoothEase } },
+              }}
+              className="text-base font-semibold text-gray-900"
+            >
+              快捷入口
+            </motion.h2>
+            <a href="/all-features" className="text-sm text-blue-600 hover:text-blue-700">查看全部 →</a>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
             {[
-              { title: "学科目录", icon: BookOpen, desc: "浏览初中全学科知识点", href: "/subjects", color: "from-blue-500 to-blue-600" },
-              { title: "自由练习", icon: PenTool, desc: "随机出题巩固知识", href: "/practice", color: "from-green-500 to-emerald-600" },
-              { title: "错题本", icon: AlertCircle, desc: "回顾错题查漏补缺", href: "/wrong", color: "from-red-500 to-rose-600" },
-              { title: "模拟考试", icon: Target, desc: "限时模拟中考环境", href: "/exam", color: "from-purple-500 to-violet-600" },
-              { title: "资料库", icon: FolderOpen, desc: "管理学习资料文件", href: "/files", color: "from-amber-500 to-orange-600" },
-              { title: "知识图谱", icon: Network, desc: "探索知识点关联", href: "/knowledge", color: "from-teal-500 to-cyan-600" },
+              { title: "学科目录", icon: BookOpen, desc: "知识点", href: "/subjects", color: "from-blue-500 to-blue-600", bg: "bg-blue-50" },
+              { title: "知识图谱", icon: Network, desc: "关联图", href: "/knowledge/graph", color: "from-purple-500 to-purple-600", bg: "bg-purple-50" },
+              { title: "自由练习", icon: PenTool, desc: "随机出题", href: "/practice", color: "from-green-500 to-green-600", bg: "bg-green-50" },
+              { title: "模拟考试", icon: Target, desc: "限时测试", href: "/exam", color: "from-red-500 to-red-600", bg: "bg-red-50" },
+              { title: "错题本", icon: AlertCircle, desc: "查漏补缺", href: "/wrong", color: "from-orange-500 to-orange-600", bg: "bg-orange-50" },
+              { title: "复习计划", icon: Brain, desc: "艾宾浩斯", href: "/review", color: "from-cyan-500 to-cyan-600", bg: "bg-cyan-50" },
+              { title: "闪卡记忆", icon: Layers, desc: "背诵卡片", href: "/cards", color: "from-pink-500 to-pink-600", bg: "bg-pink-50" },
+              { title: "资料库", icon: FolderOpen, desc: "文件管理", href: "/files", color: "from-amber-500 to-amber-600", bg: "bg-amber-50" },
+              { title: "学习目标", icon: Trophy, desc: "设定目标", href: "/goals", color: "from-indigo-500 to-indigo-600", bg: "bg-indigo-50" },
+              { title: "数据统计", icon: BarChart3, desc: "学习报告", href: "/stats", color: "from-teal-500 to-teal-600", bg: "bg-teal-50" },
+              { title: "学习资源", icon: Sparkles, desc: "推荐内容", href: "/knowledge/resources", color: "from-fuchsia-500 to-fuchsia-600", bg: "bg-fuchsia-50" },
+              { title: "专项训练", icon: Zap, desc: "薄弱科目", href: "/practice?mode=subject", color: "from-emerald-500 to-emerald-600", bg: "bg-emerald-50" },
             ].map((action, i) => (
               <motion.a
                 key={action.title}
                 href={action.href}
-                variants={{
-                  hidden: { opacity: 0, y: 10 },
-                  visible: {
-                    opacity: 1,
-                    y: 0,
-                    transition: { ...springConfig, delay: i * 0.04 },
-                  },
-                }}
-                whileHover={{ y: -4, scale: 1.01, transition: { duration: 0.2, ease: smoothEase } }}
-                whileTap={{ scale: 0.99 }}
-                className="group relative cursor-pointer overflow-hidden rounded-xl border border-gray-200/50 bg-white/80 p-4 backdrop-blur-sm transition-all duration-300 hover:border-blue-300/50 hover:shadow-lg hover:shadow-blue-500/10"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.03 }}
+                whileHover={{ y: -2, scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="group flex flex-col items-center justify-center p-4 rounded-xl border border-gray-100 bg-white hover:border-gray-200 hover:shadow-lg transition-all duration-200"
               >
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-blue-500/0 via-transparent to-purple-500/0 opacity-0 transition-opacity duration-300 group-hover:from-blue-500/5 group-hover:via-transparent group-hover:to-purple-500/5 group-hover:opacity-100" />
-                <div className="relative flex items-center gap-3">
-                  <div className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br ${action.color} text-white`}>
-                    <action.icon className="h-5 w-5" />
-                  </div>
-                  <div>
-                    <h3 className="relative font-medium text-gray-900 text-sm group-hover:text-blue-600 transition-colors">
-                      {action.title}
-                    </h3>
-                    <p className="relative text-xs text-gray-500">{action.desc}</p>
-                  </div>
+                <div className={`flex h-12 w-12 items-center justify-center rounded-xl ${action.bg} mb-2 group-hover:scale-110 transition-transform`}>
+                  <action.icon className={`h-6 w-6 bg-gradient-to-br ${action.color} bg-clip-text`} />
                 </div>
+                <h3 className="font-medium text-gray-900 text-sm">{action.title}</h3>
+                <p className="text-xs text-gray-500">{action.desc}</p>
               </motion.a>
             ))}
           </div>

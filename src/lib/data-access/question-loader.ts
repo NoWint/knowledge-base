@@ -25,63 +25,80 @@ export interface LoadedQuestion extends Question {
   options: QuestionOption[]
 }
 
-const questionCache: LoadedQuestion[] | null = null
+let questionCache: LoadedQuestion[] | null = null
 
-export async function loadAllQuestions(): Promise<LoadedQuestion[]> {
-  const allQuestions: LoadedQuestion[] = []
-  const subjectIds = ['yuwen', 'math', 'yingyu', 'history', 'daofa', 'biology', 'physics', 'geography', 'chemistry', 'tiyu']
+function parseExamQuestions(subjectId: string, categories: ExamCategory[]): LoadedQuestion[] {
+  const result: LoadedQuestion[] = []
+  for (const cat of categories) {
+    for (const q of cat.questions) {
+      const options: QuestionOption[] = (q.options || []).map((opt, idx) => ({
+        id: `${q.id}-opt-${idx}`,
+        questionId: q.id,
+        label: String.fromCharCode(65 + idx),
+        content: opt,
+        isCorrect: String.fromCharCode(65 + idx) === q.answer,
+      }))
 
-  for (const subjectId of subjectIds) {
-    try {
-      const examFiles = [`@/data/subjects/${subjectId}/exams/mock-paper`, `@/data/subjects/${subjectId}/exams/${subjectId}-exam`]
-      
-      for (const filePath of examFiles) {
-        try {
-          const examModule = await import(filePath).catch(() => null)
-          if (!examModule?.default) continue
-
-          const data: ExamFile = examModule.default
-          const categories = data.examCategories || []
-          
-          for (const cat of categories) {
-            for (const q of cat.questions) {
-              const options: QuestionOption[] = (q.options || []).map((opt, idx) => ({
-                id: `${q.id}-opt-${idx}`,
-                questionId: q.id,
-                label: String.fromCharCode(65 + idx),
-                content: opt,
-                isCorrect: String.fromCharCode(65 + idx) === q.answer,
-              }))
-
-              allQuestions.push({
-                id: q.id,
-                knowledgePointId: '',
-                type: q.type === '选择题' ? 'single' : q.type === '填空题' ? 'fill' : 'single',
-                difficulty: q.difficulty === '困难' ? 3 : q.difficulty === '中等' ? 2 : 1,
-                content: q.question,
-                answer: q.answer,
-                explanation: q.explanation || '',
-                source: `${subjectId} - ${cat.category}`,
-                tags: q.knowledgePoints || [],
-                estimatedTime: 60,
-                fromAI: false,
-                options,
-              })
-            }
-          }
-        } catch {
-          // File not found, skip
-        }
-      }
-    } catch (e) {
-      console.warn(`Failed to load questions for ${subjectId}:`, e)
+      result.push({
+        id: q.id,
+        knowledgePointId: "",
+        type: q.type === "选择题" ? "single" : q.type === "填空题" ? "fill" : "single",
+        difficulty: q.difficulty === "困难" ? 3 : q.difficulty === "中等" ? 2 : 1,
+        content: q.question,
+        answer: q.answer,
+        explanation: q.explanation || "",
+        source: `${subjectId} - ${cat.category}`,
+        tags: q.knowledgePoints || [],
+        estimatedTime: 60,
+        fromAI: false,
+        options,
+      })
     }
   }
+  return result
+}
 
+async function loadExamFile(subjectId: string, fileName: string): Promise<LoadedQuestion[]> {
+  try {
+    const response = await fetch(`/data/subjects/${subjectId}/exams/${fileName}.json`)
+    if (!response.ok) return []
+    const data: ExamFile = await response.json()
+    if (!data.examCategories) return []
+    return parseExamQuestions(subjectId, data.examCategories)
+  } catch {
+    return []
+  }
+}
+
+export async function loadAllQuestions(): Promise<LoadedQuestion[]> {
+  if (questionCache) return questionCache
+
+  const allQuestions: LoadedQuestion[] = []
+
+  const examFiles: { subjectId: string; fileName: string }[] = [
+    { subjectId: "chemistry", fileName: "chemistry-exam" },
+    { subjectId: "chemistry", fileName: "mock-paper" },
+    { subjectId: "geography", fileName: "geography-exam" },
+    { subjectId: "geography", fileName: "mock-paper" },
+  ]
+
+  const results = await Promise.all(
+    examFiles.map(({ subjectId, fileName }) => loadExamFile(subjectId, fileName))
+  )
+
+  for (const questions of results) {
+    allQuestions.push(...questions)
+  }
+
+  questionCache = allQuestions
   return allQuestions
 }
 
 export async function getQuestionsBySubject(subjectId: string): Promise<LoadedQuestion[]> {
-  const allQuestions = await loadAllQuestions()
-  return allQuestions.filter(q => q.source?.startsWith(subjectId))
+  const all = await loadAllQuestions()
+  return all.filter(q => q.source?.startsWith(subjectId))
+}
+
+export function clearQuestionCache(): void {
+  questionCache = null
 }

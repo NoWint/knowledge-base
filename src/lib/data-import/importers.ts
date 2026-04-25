@@ -57,7 +57,7 @@ export async function importSubjects(): Promise<number> {
   const subjects: DataSubject[] = [
     { id: 'yuwen', name: '语文', icon: '📖', gradeLevel: '7-9', description: '人教版统编本', orderIndex: 1 },
     { id: 'shuxue', name: '数学', icon: '🔢', gradeLevel: '7-9', description: '北师大版', orderIndex: 2 },
-    { id: 'yingyu', name: '英语', icon: '🔤', gradeLevel: '7-9', description: '沪教版', orderIndex: 3 },
+    { id: 'english', name: '英语', icon: '🔤', gradeLevel: '7-9', description: '沪教版', orderIndex: 3 },
     { id: 'lishi', name: '历史', icon: '📜', gradeLevel: '7-9', description: '人教版', orderIndex: 4 },
     { id: 'daofa', name: '道法', icon: '⚖️', gradeLevel: '7-9', description: '人教版道德与法治', orderIndex: 5 },
     { id: 'shengwu', name: '生物', icon: '🧬', gradeLevel: '7-9', description: '人教版', orderIndex: 6 },

@@ -13,7 +13,7 @@ const smoothEase = [0.25, 0.1, 0.25, 1]
 const SUBJECT_COLORS: Record<string, string> = {
   yuwen: "from-red-500 to-rose-600",
   math: "from-blue-500 to-blue-600",
-  yingyu: "from-green-500 to-emerald-600",
+  english: "from-green-500 to-emerald-600",
   physics: "from-yellow-500 to-amber-600",
   chemistry: "from-purple-500 to-violet-600",
   biology: "from-teal-500 to-cyan-600",

@@ -34,7 +34,7 @@ export const useUserStore = create<UserState>()(
         set({ isLoading: true })
         try {
           await runMigrations()
-          
+
           const currentUserId = localStorage.getItem('currentUserId')
           if (currentUserId) {
             const user = await db.users.get(currentUserId)

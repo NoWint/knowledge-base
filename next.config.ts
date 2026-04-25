@@ -1,14 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
   images: { unoptimized: true },
   reactStrictMode: true,
   compress: true,
-  basePath: '/knowledge-base',
-  assetPrefix: '/knowledge-base',
-  output: 'export',
   trailingSlash: true,
-  eslint: { ignoreDuringBuilds: true },
-  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: false },
+  typescript: { ignoreBuildErrors: false },
   experimental: {
     optimizePackageImports: ['framer-motion', 'lucide-react', 'recharts'],
   },

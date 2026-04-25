@@ -9,7 +9,6 @@ import type { KnowledgePoint, Chapter, Question, QuestionOption, KnowledgeRelati
 import { BookOpen, ArrowLeft, FileText, ChevronRight, Target, Link } from "lucide-react"
 import { smoothEase } from "@/lib/animations"
 import { useToast } from "@/components/ui/toast"
-import { getKnowledgePointById, getChapterById } from "@/lib/data-access/subject-data"
 
 export default function KnowledgeResourcesPage() {
   return (
@@ -39,14 +38,14 @@ function KnowledgeResourcesContent() {
       }
 
       try {
-        const kp = await getKnowledgePointById(kpId)
+        const kp = await db.knowledgePoints.get(kpId)
         if (!kp) {
           setLoading(false)
           return
         }
         setKnowledgePoint(kp)
 
-        const ch = await getChapterById(kp.chapterId)
+        const ch = await db.chapters.get(kp.chapterId)
         setChapter(ch || null)
 
         const questions = await db.questions.where("knowledgePointId").equals(kpId).toArray()

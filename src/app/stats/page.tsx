@@ -12,7 +12,6 @@ import { Heatmap } from "@/components/charts/heatmap"
 import { RadarChart } from "@/components/charts/radar-chart"
 import { detectWeakPoints, type WeakPoint } from "@/lib/algorithms/weakness-detector"
 import { getHeatmapData } from "@/lib/analytics/daily-stats"
-import { getAllKnowledgePoints, getAllChapters, getAllSubjects } from "@/lib/data-access/subject-data"
 
 const COLORS = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#ec4899", "#14b8a6", "#f97316"]
 
@@ -52,9 +51,9 @@ export default function StatsPage() {
         db.userAnswers.where("userId").equals(currentUser.id).toArray(),
         db.wrongQuestions.where("userId").equals(currentUser.id).toArray(),
         db.questions.toArray(),
-        getAllKnowledgePoints(),
-        getAllChapters(),
-        getAllSubjects(),
+        db.knowledgePoints.toArray(),
+        db.chapters.toArray(),
+        db.subjects.toArray(),
         getHeatmapData(currentUser.id, 90),
         detectWeakPoints(currentUser.id, 3),
       ])

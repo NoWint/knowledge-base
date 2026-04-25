@@ -16,7 +16,7 @@ function isToday(dateStr: string): boolean {
 }
 
 export async function getUserStreak(userId: string): Promise<UserStreak | null> {
-  return db.userStreaks.where('userId').equals(userId).first()
+  return (await db.userStreaks.where('userId').equals(userId).first()) ?? null
 }
 
 export async function getOrCreateUserStreak(userId: string): Promise<UserStreak> {
@@ -86,7 +86,7 @@ export async function checkAndUpdateStreak(userId: string): Promise<UserStreak> 
   return recordStudyActivity(userId)
 }
 
-export async function getStreakMilestone(streak: number): {
+export function getStreakMilestone(streak: number): {
   level: string
   emoji: string
   next: number
