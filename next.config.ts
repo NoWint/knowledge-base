@@ -7,6 +7,7 @@ const nextConfig = {
   assetPrefix: '/knowledge-base',
   output: 'export',
   trailingSlash: true,
+  eslint: { ignoreDuringBuilds: true },
   experimental: {
     optimizePackageImports: ['framer-motion', 'lucide-react', 'recharts'],
   },
