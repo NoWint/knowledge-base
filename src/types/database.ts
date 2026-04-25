@@ -243,3 +243,13 @@ export interface DailyStats {
   studyMinutes: number
   topicsCovered: string[]
 }
+
+export interface UserStreak {
+  id: string
+  userId: string
+  currentStreak: number
+  longestStreak: number
+  lastStudyDate: string | null
+  totalStudyDays: number
+  lastUpdated: Date
+}

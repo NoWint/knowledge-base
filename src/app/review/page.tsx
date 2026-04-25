@@ -77,7 +77,6 @@ export default function ReviewPage() {
     if (!selectedAnswer || dueReviews.length === 0) return
 
     const currentQ = dueReviews[currentIndex]
-    if (!currentQ) return
     const correctOption = currentQ.options.find(o => o.isCorrect)
     const correct = selectedAnswer === correctOption?.label
     const spent = Math.round((Date.now() - startTimeRef.current) / 1000)
@@ -86,12 +85,9 @@ export default function ReviewPage() {
 
     if (correct) setScore(s => s + 1)
 
-    if (!currentUser) return
-    const userId = currentUser.id
-
     await db.userAnswers.add({
       id: crypto.randomUUID(),
-      userId,
+      userId: currentUser?.id || "",
       questionId: currentQ.id,
       answer: selectedAnswer,
       isCorrect: correct,

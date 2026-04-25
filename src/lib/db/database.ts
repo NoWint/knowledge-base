@@ -24,6 +24,7 @@ import type {
   LearningGoal,
   StudySession,
   DailyStats,
+  UserStreak,
 } from '@/types'
 
 const db = new Dexie('KnowledgeBaseDB') as Dexie & {
@@ -51,9 +52,10 @@ const db = new Dexie('KnowledgeBaseDB') as Dexie & {
   learningGoals: EntityTable<LearningGoal, 'id'>
   studySessions: EntityTable<StudySession, 'id'>
   dailyStats: EntityTable<DailyStats, 'id'>
+  userStreaks: EntityTable<UserStreak, 'id'>
 }
 
-const DB_VERSION = 3
+const DB_VERSION = 4
 
 db.version(1).stores({
   users: 'id, name, createdAt',
@@ -139,6 +141,34 @@ db.version(3).stores({
   learningGoals: 'id, userId, type, status',
   studySessions: 'id, userId, startTime, type',
   dailyStats: 'id, userId, date',
+})
+
+db.version(4).stores({
+  users: 'id, name, createdAt',
+  userProfiles: 'id, userId, currentGrade',
+  userSubjects: 'id, userId, subjectId',
+  subjects: 'id, name, gradeLevel, orderIndex',
+  chapters: 'id, subjectId, parentId, orderIndex',
+  knowledgePoints: 'id, chapterId, name, difficulty',
+  articles: 'id, knowledgePointId, type, createdAt',
+  questions: 'id, knowledgePointId, type, difficulty, *tags',
+  questionOptions: 'id, questionId, label, isCorrect',
+  userAnswers: 'id, userId, questionId, answeredAt, isCorrect',
+  wrongQuestions: 'id, userId, questionId, status, lastWrongAt',
+  testPapers: 'id, name, subjectId',
+  testPaperQuestions: 'id, testPaperId, questionId, orderIndex',
+  knowledgeRelations: 'id, sourceKpId, targetKpId, relationType',
+  userFiles: 'id, userId, folderId, fileName, fileType, createdAt',
+  fileFolders: 'id, userId, parentId, folderName',
+  fileTags: 'id, userId, tagName',
+  fileKnowledgeLinks: 'id, fileId, knowledgePointId',
+  reviewSchedules: 'id, userId, questionId, nextReviewDate',
+  flashCards: 'id, knowledgePointId, createdAt',
+  userFlashCardReviews: 'id, userId, flashCardId, nextReviewDate',
+  learningGoals: 'id, userId, type, status',
+  studySessions: 'id, userId, startTime, type',
+  dailyStats: 'id, userId, date',
+  userStreaks: 'id, userId',
 })
 
 export { db, DB_VERSION }

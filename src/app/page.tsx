@@ -191,6 +191,56 @@ export default function Home() {
             hidden: { opacity: 0, y: 12 },
             visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: smoothEase } },
           }}
+        >
+          <StreakDisplay />
+        </motion.div>
+
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <motion.div
+            variants={{
+              hidden: { opacity: 0, y: 12 },
+              visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: smoothEase } },
+            }}
+          >
+            <AchievementBadges />
+          </motion.div>
+
+          <motion.div
+            variants={{
+              hidden: { opacity: 0, y: 12 },
+              visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: smoothEase } },
+            }}
+            className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl p-4 text-white shadow-lg"
+          >
+            <div className="flex items-center gap-2 mb-3">
+              <Sparkles className="w-5 h-5 text-amber-300" />
+              <h3 className="font-semibold">今日学习建议</h3>
+            </div>
+            <div className="space-y-2 text-sm">
+              <p className="text-white/90">📚 根据你的学习进度，推荐以下活动：</p>
+              <ul className="space-y-1.5 text-white/80">
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-300" />
+                  复习昨天的错题，巩固知识点
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-300" />
+                  完成10道随机练习保持手感
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue-300" />
+                  预习下一章节内容
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 12 },
+            visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: smoothEase } },
+          }}
           className="relative overflow-hidden rounded-2xl border border-gray-200/50 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 shadow-xl"
         >
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(99,102,241,0.15),transparent_70%)]" />
