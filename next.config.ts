@@ -5,6 +5,8 @@ const nextConfig = {
   compress: true,
   basePath: '/knowledge-base',
   assetPrefix: '/knowledge-base',
+  output: 'export',
+  trailingSlash: true,
   experimental: {
     optimizePackageImports: ['framer-motion', 'lucide-react', 'recharts'],
   },
